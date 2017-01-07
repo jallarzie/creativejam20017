@@ -226,6 +226,7 @@ GameObject:
   - 4: {fileID: 1658054984}
   - 212: {fileID: 1658054983}
   - 95: {fileID: 1658054982}
+  - 114: {fileID: 1658054985}
   m_Layer: 0
   m_Name: Creeper (p2)
   m_TagString: Untagged
@@ -296,6 +297,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!114 &1658054985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1658054981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cda862bee3376344b24027706d9d821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNum: 0
+  speed: 0
 --- !u!1 &2147375390
 GameObject:
   m_ObjectHideFlags: 0
