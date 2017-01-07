@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}'
-    m_lastTimePsrt1: -1301802873
-    m_lastTimePart2: -1999358149
+    m_lastTimePsrt1: 852619469
+    m_lastTimePart2: -1999358137
     List:
     - Name: Play_BackingTrack
       Path: Default Work Unit\Play_BackingTrack
@@ -49,6 +49,56 @@ MonoBehaviour:
       ID: -150147956
       Guid: 5453a56ae40eb146b6cb7696fa7fe938
       maxAttenuation: 0
+    - Name: SaxBary_phrase1
+      Path: Default Work Unit\SaxBary_phrase1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SaxBary_phrase1
+        ObjectType: 3
+      ID: 2103422374
+      Guid: 27064ffa3388ce4596131f401437120a
+      maxAttenuation: 0
+    - Name: SaxBary_phrase2
+      Path: Default Work Unit\SaxBary_phrase2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SaxBary_phrase2
+        ObjectType: 3
+      ID: 2103422373
+      Guid: e3f4a461f58aa64eaacf6f63260ef103
+      maxAttenuation: 0
+    - Name: SaxBary_phrase3
+      Path: Default Work Unit\SaxBary_phrase3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SaxBary_phrase3
+        ObjectType: 3
+      ID: 2103422372
+      Guid: 9e399b98f28b57429d24ed0be4b1a71b
+      maxAttenuation: 0
+    - Name: SaxBary_phrase4
+      Path: Default Work Unit\SaxBary_phrase4
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SaxBary_phrase4
+        ObjectType: 3
+      ID: 2103422371
+      Guid: 270e21bbda8bbd48bebf7a3c88715b19
+      maxAttenuation: 0
+    - Name: SaxBary_phrase5
+      Path: Default Work Unit\SaxBary_phrase5
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SaxBary_phrase5
+        ObjectType: 3
+      ID: 2103422370
+      Guid: 80c55108f659f1419f4f979634ee4d0e
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -74,8 +124,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D2D482B4-261C-403A-B608-CCBF679445AF}'
-    m_lastTimePsrt1: -1288521532
-    m_lastTimePart2: -1999358149
+    m_lastTimePsrt1: 869214655
+    m_lastTimePart2: -1999358137
     List:
     - Name: General
       Path: Default Work Unit\General
