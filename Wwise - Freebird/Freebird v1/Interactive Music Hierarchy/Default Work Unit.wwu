@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36AFD64E-DCBE-493E-B4E8-70C85A5AA1C2}" SchemaVersion="70">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{36AFD64E-DCBE-493E-B4E8-70C85A5AA1C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Backing Track" ID="{08D96365-153D-4F0B-AB5F-1437574C9AF6}" ShortID="676357045">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Freebird bounce 1" ID="{B9D5D8EE-0A40-4247-BFCC-ACC3B1129190}" ShortID="705911349">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="48000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Freebird bounce 1" ID="{58AF4445-EB3A-484D-BB42-C4A04582FD74}" ShortID="114044310">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Freebird bounce 1" ID="{C0E68C48-9491-424A-8AD0-49C99543EF37}" ShortID="292885265">
+											<Language>SFX</Language>
+											<AudioFile>Freebird bounce 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E2D99BB9-58BB-40A3-9009-08DD49B24E44}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{870DBA07-7E28-4CA1-B498-DA02061FD8F9}">
+											<ClipList>
+												<MusicClip Name="Freebird bounce 1" ID="{0E7F6768-E25D-4674-A213-AD2EE842017C}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Freebird bounce 1" ID="{C0E68C48-9491-424A-8AD0-49C99543EF37}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{929B1569-5FE4-4BF5-AFD9-D1742798C1E4}"/>
+								<MusicCue Name="Exit Cue" ID="{ED64A131-E552-475D-B202-53DB1E3BB38E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="48000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{37A1D0B6-B2D5-4B86-A1A1-E52596F3418B}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{9B4DF5F5-5470-4309-9722-65C0F29DBD3F}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{17F25A57-767D-44FA-B6FA-79B881049FFB}" ShortID="697209778">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="2"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{C3D375A2-E95B-42E9-ABBA-6E5DA5C914DE}" ShortID="374679377">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="6"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Freebird bounce 1" ID="{B9D5D8EE-0A40-4247-BFCC-ACC3B1129190}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Xylo banque 1" ID="{82F22437-B2AB-4549-B7F8-1F64178590D7}" ShortID="434073021">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+						</Reference>
+						<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Forest" ID="{CD538FCE-1EFA-4395-BE71-E35D54A57F75}" WorkUnitID="{33EB1407-1601-4B0D-A620-9099C0353115}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Xylophone 1" ID="{5772AB65-BBE0-4CAA-8BEF-2C0E5B9FD7D7}" ShortID="593347848">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone 1" ID="{242CC021-7F70-4E9C-9870-328B34D4FD22}" ShortID="750753837">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone 1" ID="{DE37B7AC-B8E7-4094-9614-E269719D39EF}" ShortID="554878717">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3C1F9E3E-2008-4994-BF41-934AD60F9553}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6093A4F3-877B-4D87-AC5C-8BBE6440DD1A}">
+											<ClipList>
+												<MusicClip Name="Xylophone 1" ID="{E4B309B5-C08C-4726-BC4B-A65192402EA8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone 1" ID="{DE37B7AC-B8E7-4094-9614-E269719D39EF}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E0B0F44D-BD89-418D-AE00-40683A99DBBD}"/>
+								<MusicCue Name="Exit Cue" ID="{5FAA681B-E627-4D4D-8134-5B5032E83A59}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone 2" ID="{0B3EDFB4-111E-4AE3-907F-A5D6D4A9512E}" ShortID="512819980">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone 2" ID="{4EBDE654-8B69-4571-A9F9-76F34D91ED59}" ShortID="553522879">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone 2" ID="{0BE92E6A-2AF4-42F4-A78A-4B292D7567E0}" ShortID="42613484">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone 2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CB08C249-1BCC-40C5-AEBB-05766352DEEA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{752DCD8E-5E16-4F22-A9EF-458F05F55CC4}">
+											<ClipList>
+												<MusicClip Name="Xylophone 2" ID="{2EA9AF07-7463-4EEA-BD76-BA5B1345B260}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone 2" ID="{0BE92E6A-2AF4-42F4-A78A-4B292D7567E0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7D291EB9-99C3-4D85-B8C2-1F3DF335916C}"/>
+								<MusicCue Name="Exit Cue" ID="{F30C31AC-D38D-4509-B568-718F161C7F0B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone 3" ID="{742C64FB-0B40-4B69-9788-DA5329A8A27D}" ShortID="580701397">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone 3" ID="{3511F4FA-BB94-499F-977F-74FB8D37AE8E}" ShortID="442823392">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone 3" ID="{DD2D6F49-F79F-416E-9CC8-BCE8451FD395}" ShortID="807936598">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone 3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{20E994F5-A1F9-404A-B832-6C250F15D755}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{D439DA81-7B94-45BB-8D70-A084D1F009C0}">
+											<ClipList>
+												<MusicClip Name="Xylophone 3" ID="{86D6306A-D035-4C31-9064-4590697180BB}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone 3" ID="{DD2D6F49-F79F-416E-9CC8-BCE8451FD395}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{B64FB39C-D294-4C1F-A5F5-7B954AA21205}"/>
+								<MusicCue Name="Exit Cue" ID="{02E30725-1576-4353-A007-F798D3DBC4AC}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone 4" ID="{11330E66-BF21-4C99-962B-B7900CDC0AD4}" ShortID="341906389">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone 4" ID="{BF70A6F5-DD50-4AEF-8ACF-36E5E23F3388}" ShortID="370959963">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone 4" ID="{52F86FA0-B3A9-488F-9999-7217D1505CDE}" ShortID="189973425">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone 4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DFC97708-80C7-44D3-8157-C29F515CC766}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{1A62D880-1E02-47A4-8F39-84B0A82FD900}">
+											<ClipList>
+												<MusicClip Name="Xylophone 4" ID="{DCAA7263-BF83-4368-8246-C4ABDFBABAFF}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone 4" ID="{52F86FA0-B3A9-488F-9999-7217D1505CDE}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{5FCD3161-EDF6-44CE-8F8E-4E672BCCEA15}"/>
+								<MusicCue Name="Exit Cue" ID="{A3AC1A34-49FB-458A-BEA2-73E2105F4E92}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone 5" ID="{70FC9090-C07C-47BF-B6D8-C7A7AEA85F02}" ShortID="669650793">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone 5" ID="{D326A58A-5601-4894-B7F8-0DE92F75A7DC}" ShortID="589915444">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone 5" ID="{8AC41C3D-B0F8-437C-B2AA-9CCE6C083CE3}" ShortID="1044789194">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone 5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{90A28086-2CC9-44F6-A85F-206EE8125226}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{30989CF0-B6ED-41B5-A6AF-B6D5A65854AE}">
+											<ClipList>
+												<MusicClip Name="Xylophone 5" ID="{7550DEDF-6375-46ED-90E5-F500A6C87F89}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone 5" ID="{8AC41C3D-B0F8-437C-B2AA-9CCE6C083CE3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{25D6E098-4FCE-497F-8AD1-2A2FD4225B1A}"/>
+								<MusicCue Name="Exit Cue" ID="{2257514F-8F2E-4728-B0D0-C5E469D00799}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone 6" ID="{4D76C388-7A49-4718-980D-6EFDC8821790}" ShortID="307906848">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone 6" ID="{18009773-683E-4D53-A906-0EEABE17BE66}" ShortID="231650183">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone 6" ID="{A92FCCB8-EAA6-4EDD-84EA-8EE3C09DE29F}" ShortID="561449351">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone 6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{35924CD7-5A13-4CE5-B14C-69A423DBC636}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{06665BBE-3B89-471F-988E-B6BE1F1E8342}">
+											<ClipList>
+												<MusicClip Name="Xylophone 6" ID="{6C4D6705-B94E-434E-BFCE-819DDB5A8595}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone 6" ID="{A92FCCB8-EAA6-4EDD-84EA-8EE3C09DE29F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D4FC72D7-2E61-49BA-AEE8-95DD102FCA57}"/>
+								<MusicCue Name="Exit Cue" ID="{9088B9F5-953A-4219-AFA2-AB116ADFE6DD}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone 7" ID="{5A21FB51-BCEB-4AF0-9BEF-3B4F039DDB4E}" ShortID="593189380">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone 7" ID="{2FDAB37A-A3DB-43D6-B7B7-93175DC3D18E}" ShortID="250420737">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone 7" ID="{5AA94D76-7B7F-4F6D-9A7A-641C8F248EE0}" ShortID="423129437">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone 7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{834AFBFB-6F2B-455D-BB9C-C4E23024172B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{D141BB94-D06A-46C9-B4FA-5ED1C0D68660}">
+											<ClipList>
+												<MusicClip Name="Xylophone 7" ID="{E8BA9978-C218-4248-A7DE-4C4F6FB13F0D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone 7" ID="{5AA94D76-7B7F-4F6D-9A7A-641C8F248EE0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{08186E75-60F0-48F1-B58F-983D0A5ABBE7}"/>
+								<MusicCue Name="Exit Cue" ID="{9BC494C7-C8E7-4C11-AA2D-5447C9003913}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone 8" ID="{4881F557-639D-4390-B8EA-721AB4548EBF}" ShortID="759031587">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone 8" ID="{B920C76D-8BBE-4D9D-82B8-FB45DD461758}" ShortID="1003429616">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone 8" ID="{978A3120-FB52-4749-9298-7B58479143C7}" ShortID="496818768">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone 8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F661D606-B871-4DC0-8C77-ABE5646D98F6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{1166FCEA-52D7-4922-8702-7969E93E8A7D}">
+											<ClipList>
+												<MusicClip Name="Xylophone 8" ID="{5FB2BD96-BCC7-49BB-96B4-2B5FDAA43D0A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone 8" ID="{978A3120-FB52-4749-9298-7B58479143C7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{66D98A36-0C1C-4265-8DA1-692346F34042}"/>
+								<MusicCue Name="Exit Cue" ID="{9F8FA6AA-6360-44DD-9044-F269A7AB536C}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{C110AC25-A41A-4C85-A71E-AE1DA2725877}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{0F06F16E-DBFC-478D-A68B-E4C62870EFE5}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{230D3DB2-5F4D-410B-9195-E914920A78AE}" ShortID="903340595">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="3"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{7F771937-3E83-4257-9879-2A4B21677013}" ShortID="159016014">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<SegmentRef Name="Xylophone 1" ID="{5772AB65-BBE0-4CAA-8BEF-2C0E5B9FD7D7}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{FD5870D5-681B-484C-91C0-18A9E6C0039A}" ShortID="558159176">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone 5" ID="{70FC9090-C07C-47BF-B6D8-C7A7AEA85F02}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{57BE6947-5178-4AE7-902E-90F329B9045F}" ShortID="517749555">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone 2" ID="{0B3EDFB4-111E-4AE3-907F-A5D6D4A9512E}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{00B2978A-72A3-4A54-A9C4-7688A93DC6C3}" ShortID="338789546">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone 3" ID="{742C64FB-0B40-4B69-9788-DA5329A8A27D}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{9C0A3D1E-EDE5-4CD3-AC84-8E54073C362A}" ShortID="1063427999">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone 4" ID="{11330E66-BF21-4C99-962B-B7900CDC0AD4}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{36327EBF-EDAC-4211-949E-9DDFAF5C9A5F}" ShortID="507017872">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone 6" ID="{4D76C388-7A49-4718-980D-6EFDC8821790}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{C0EB8D79-4206-486F-B745-70FDF2379B30}" ShortID="873131990">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone 7" ID="{5A21FB51-BCEB-4AF0-9BEF-3B4F039DDB4E}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{5DD24F7E-809E-4DEA-8BBE-E4E4C0C01232}" ShortID="469933879">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone 8" ID="{4881F557-639D-4390-B8EA-721AB4548EBF}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Xylo banque 2" ID="{1C62441E-46C8-4245-A0E8-154B090214B4}" ShortID="473821774">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Xylophone A" ID="{979710B1-4113-4E13-BB72-524C31E09E45}" ShortID="492659595">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone A" ID="{DA6343EB-94AE-406D-BD7B-600AD63A3E21}" ShortID="417364287">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone A" ID="{55EEF838-B7A0-4479-8421-3B83541BD78F}" ShortID="823356531">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone A.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{92F805F7-96DF-4B72-BA24-87B9BABB29F2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CB703476-6B81-4924-A5FC-42858621C67D}">
+											<ClipList>
+												<MusicClip Name="Xylophone A" ID="{FE39A716-0B3F-4B7F-A5E3-64E8A3D5396D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone A" ID="{55EEF838-B7A0-4479-8421-3B83541BD78F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{FACE47F0-D079-4196-A4C2-0F9C358DFC07}"/>
+								<MusicCue Name="Exit Cue" ID="{E1074D10-BE0F-4595-9D7F-1AABEB0A0F2A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone B" ID="{70BFD20E-AB0F-4469-BFCB-26AA8C2E03AC}" ShortID="553915229">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone B" ID="{221FEB7A-ACC9-4492-8392-2B62180D951C}" ShortID="273216780">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone B" ID="{0503279C-1840-407D-8A80-4DACEC99FC8C}" ShortID="894753112">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone B.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1F16CAEC-1137-45F3-B480-0E72524CA1BD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{46B9E360-9D63-43C1-BBE8-B731F12C4A2F}">
+											<ClipList>
+												<MusicClip Name="Xylophone B" ID="{38E9641C-73D8-4CF8-BA22-C304440BC350}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone B" ID="{0503279C-1840-407D-8A80-4DACEC99FC8C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{260FC7E6-C162-4773-AB29-A035119DB0C6}"/>
+								<MusicCue Name="Exit Cue" ID="{262A62CF-11F4-4672-A797-678485DDF528}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone C" ID="{0783E475-A081-41A5-B9D8-7F2DE9C0CC54}" ShortID="153910818">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone C" ID="{63F9D6D6-E67A-490A-856C-935A3D111E35}" ShortID="686064623">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone C" ID="{92A921BB-7600-49F8-A544-E893BEFA0E86}" ShortID="616334728">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone C.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6E0FB1EE-4DDB-45C9-AC16-B6D0AEDAF385}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{90CD92CF-CC90-46FE-9CAF-F59A85A2BC90}">
+											<ClipList>
+												<MusicClip Name="Xylophone C" ID="{AA250180-90B3-4DF0-A073-D8E0E331064E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone C" ID="{92A921BB-7600-49F8-A544-E893BEFA0E86}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{C5763194-917C-4F35-A01D-B5F7DA22FBC0}"/>
+								<MusicCue Name="Exit Cue" ID="{C4F2E567-DE1D-4AE3-8B45-CD0C525E32A7}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone D" ID="{76E7B446-8FBA-440F-BB2C-F913B1146856}" ShortID="1069402158">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone D" ID="{AC961266-E8AD-4D56-8379-527CA3C3DA89}" ShortID="493684897">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone D" ID="{4E32AC7F-9E2B-46DB-8A01-5BE751A456A7}" ShortID="665416656">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone D.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{68849706-C4AC-41ED-B091-5293AF9D6061}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5FE1FE7E-5EE9-4706-AB56-40ECB07CE32E}">
+											<ClipList>
+												<MusicClip Name="Xylophone D" ID="{280D2E03-2738-463C-A401-95538718506D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone D" ID="{4E32AC7F-9E2B-46DB-8A01-5BE751A456A7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{AEC5A8AB-C0B9-48A2-97BA-035AA393E140}"/>
+								<MusicCue Name="Exit Cue" ID="{FC22C561-EA44-448F-85EE-B8876FA924B1}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone E" ID="{512A67EC-7753-42DC-81D8-51FC85DBE6BA}" ShortID="698892577">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone E" ID="{99267BB4-80E5-43AC-A8A9-D0B0B4258B94}" ShortID="558948065">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone E" ID="{817AED74-056E-4D74-915D-345EE331FE8D}" ShortID="492607313">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone E.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D53E620B-1338-45F0-A33C-7523D3713C7E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{7F209078-A0AD-4BA4-89B7-2AAB0B921C74}">
+											<ClipList>
+												<MusicClip Name="Xylophone E" ID="{F8CBD31B-7CB2-42D3-A5D6-1F1E09CCFA79}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone E" ID="{817AED74-056E-4D74-915D-345EE331FE8D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{535E4D7E-9B31-4B43-AAFD-EE71FC8AAAF6}"/>
+								<MusicCue Name="Exit Cue" ID="{46B3FCE7-4830-47C6-B57A-43BFBE8763DC}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Xylophone F" ID="{93981C29-0329-4F7E-A1E3-4EC164F27BFE}" ShortID="945830706">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{042B3BC6-F229-4935-B260-7A6E42A2B31A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Xylophone F" ID="{BEC328D5-0A53-48BD-9D04-6409654666BE}" ShortID="838994121">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{37FC9CFC-A2B3-4315-B29C-D8746A22098F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Xylophone F" ID="{0E86A863-6C47-4B7D-9716-AA4E08BFFBB6}" ShortID="899933689">
+											<Language>SFX</Language>
+											<AudioFile>Xylophone F.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1D774BDB-BCF2-45A3-874E-06FB6BD87EF0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{55A0ED4B-623F-454C-9526-1E68EC8BD53A}">
+											<ClipList>
+												<MusicClip Name="Xylophone F" ID="{1F693137-ABBA-4449-AE25-193D6555FD5F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="1090.09070294785"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Xylophone F" ID="{0E86A863-6C47-4B7D-9716-AA4E08BFFBB6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{CE248957-C437-43C5-8569-235EF9B798DD}"/>
+								<MusicCue Name="Exit Cue" ID="{716AE120-95BA-45DA-A42F-9FCE93CD1B0A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1090.09070294785"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{35E46673-A956-410F-A860-7EF30B041240}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{B7711024-1FF4-47F7-A3C0-88A0E0E50AF5}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{822D9D26-DBE6-4625-A227-E5353F6601CA}" ShortID="61804404">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="3"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{6C22A4EF-2780-4025-ADB1-1D286C0F17E6}" ShortID="625927212">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone A" ID="{979710B1-4113-4E13-BB72-524C31E09E45}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{B4422662-EED6-4176-B587-BF45CCB802AA}" ShortID="555226049">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone B" ID="{70BFD20E-AB0F-4469-BFCB-26AA8C2E03AC}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{6F3B991F-099C-4F15-8BBA-29443556C409}" ShortID="54221921">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone C" ID="{0783E475-A081-41A5-B9D8-7F2DE9C0CC54}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{1ACB8BAD-8F36-44B9-BC8D-CF951FA12910}" ShortID="274162893">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone D" ID="{76E7B446-8FBA-440F-BB2C-F913B1146856}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{C26B67EF-DE6C-41A1-8087-A0B8E72D6A09}" ShortID="505750551">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone E" ID="{512A67EC-7753-42DC-81D8-51FC85DBE6BA}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{8CAD530F-5F06-4B40-B742-52748F6F720D}" ShortID="973774544">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Xylophone F" ID="{93981C29-0329-4F7E-A1E3-4EC164F27BFE}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
