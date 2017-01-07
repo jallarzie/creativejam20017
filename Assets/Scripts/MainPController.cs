@@ -25,8 +25,8 @@ public class MainPController : MonoBehaviour {
 		this.transform.position = lineEdges [lineIndex].transform.position;
 		animator = GetComponent<Animator> ();
 		inputDevice = (InputManager.Devices.Count > playerNum) ? InputManager.Devices[playerNum] : null;
-		currentClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));
-		nextClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));
+        currentClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));
+        nextClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));
 	}
 	
 	// Update is called once per frame
