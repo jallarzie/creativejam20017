@@ -34,19 +34,15 @@ public class InputController : MonoBehaviour {
 
 		//X button
 		if (InputManager.ActiveDevice.Action1.WasPressed) {
-			Debug.Log ("Supposedely pressed A");
 			controllerInput.color = ColorPressed.Green;
 		}
-		if (InputManager.ActiveDevice.Action1.WasPressed) {
-			Debug.Log ("Supposedely pressed B");
+		if (InputManager.ActiveDevice.Action2.WasPressed) {
 			controllerInput.color = ColorPressed.Red;
 		}
-		if (InputManager.ActiveDevice.Action1.WasPressed) {
-			Debug.Log ("Supposedely pressed X");
+		if (InputManager.ActiveDevice.Action3.WasPressed) {
 			controllerInput.color = ColorPressed.Blue;
 		}
-		if (InputManager.ActiveDevice.Action1.WasPressed) {
-			Debug.Log ("Supposedely pressed Y");
+		if (InputManager.ActiveDevice.Action4.WasPressed) {
 			controllerInput.color = ColorPressed.Yellow;
 		}
 	}
