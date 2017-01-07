@@ -12,12 +12,86 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
-  EventWwu: []
-  AuxBusWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  BankWwu: []
-  ExpandedItems: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}'
+    m_lastTimePsrt1: 1055950013
+    m_lastTimePart2: -1999358156
+    List:
+    - Name: Play_BackingTrack
+      Path: Default Work Unit\Play_BackingTrack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_BackingTrack
+        ObjectType: 3
+      ID: -1239519586
+      Guid: befe88e7ea1030499a41674f47cfedd9
+      maxAttenuation: 0
+    - Name: Play_XyloBank1
+      Path: Default Work Unit\Play_XyloBank1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_XyloBank1
+        ObjectType: 3
+      ID: -150147953
+      Guid: d8f7573d49d869489af374f9fa68fcd0
+      maxAttenuation: 0
+    - Name: Play_XyloBank2
+      Path: Default Work Unit\Play_XyloBank2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_XyloBank2
+        ObjectType: 3
+      ID: -150147956
+      Guid: 5453a56ae40eb146b6cb7696fa7fe938
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}'
+    m_lastTimePsrt1: 1056600613
+    m_lastTimePart2: -1999358156
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{458003BD-DF6C-4B2C-8959-E60203E8205A}'
+    m_lastTimePsrt1: 1065688991
+    m_lastTimePart2: -1999358156
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{F1E7B0F0-2372-449B-ABDC-99B186DF8C4D}'
+    m_lastTimePsrt1: 1065758973
+    m_lastTimePart2: -1999358156
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{D2D482B4-261C-403A-B608-CCBF679445AF}'
+    m_lastTimePsrt1: -70435258
+    m_lastTimePart2: -1999358151
+    List:
+    - Name: General
+      Path: Default Work Unit\General
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 7
+      ID: 133642231
+      Guid: 4f294309c84a214fbfbf7483b915e410
+  ExpandedItems:
+  - /Freebird 2016.2.1 v1
+  - /Freebird 2016.2.1 v1/Events
+  - /Freebird 2016.2.1 v1/Events/Default Work Unit
+  - /Freebird 2016.2.1 v1/SoundBanks
+  - /Freebird 2016.2.1 v1/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
