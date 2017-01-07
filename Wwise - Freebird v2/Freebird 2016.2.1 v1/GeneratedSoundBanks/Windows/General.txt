@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3055447710	Play_BackingTrack			\Default Work Unit\Play_BackingTrack	
+	4144819340	Play_XyloBank2			\Default Work Unit\Play_XyloBank2	
+	4144819343	Play_XyloBank1			\Default Work Unit\Play_XyloBank1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	63787320	Xylophone D	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone D_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque2\Xylophone D\Xylophone D		176544
+	128598227	Freebird bounce 1	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Freebird bounce 1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Backing_track\Freebird bounce 1\Freebird bounce 1		8467344
+	176360983	Xylophone 2	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone 2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque1\Xylophone 2\Xylophone 2		176544
+	187330731	Xylophone C	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone C_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque2\Xylophone C\Xylophone C		176544
+	300461715	Xylophone 1	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone 1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque1\Xylophone 1\Xylophone 1		176544
+	308377464	Xylophone E	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone E_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque2\Xylophone E\Xylophone E		176544
+	394573437	Xylophone 3	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone 3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque1\Xylophone 3\Xylophone 3		176544
+	461881476	Xylophone A	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone A_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque2\Xylophone A\Xylophone A		176544
+	462093355	Xylophone 6	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone 6_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque1\Xylophone 6\Xylophone 6		176544
+	517933060	Xylophone 8	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone 8_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque1\Xylophone 8\Xylophone 8		176544
+	659711698	Xylophone 7	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone 7_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque1\Xylophone 7\Xylophone 7		176544
+	879854156	Xylophone 4	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone 4_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque1\Xylophone 4\Xylophone 4		176544
+	910034856	Xylophone 5	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone 5_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque1\Xylophone 5\Xylophone 5		176544
+	913376396	Xylophone F	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone F_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque2\Xylophone F\Xylophone F		192436
+	1054237679	Xylophone B	Y:\Desktop\Freebird 2016.2.1 v1\.cache\Windows\SFX\Xylophone B_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Xylo_banque2\Xylophone B\Xylophone B		176544
+

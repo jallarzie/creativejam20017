@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Desktop/Freebird 2016.2.1 v1/</ProjectRoot>
+		<SourceFilesRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Desktop/Freebird 2016.2.1 v1/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Desktop/Freebird 2016.2.1 v1/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Desktop/Freebird 2016.2.1 v1/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3055447710" Name="Play_BackingTrack" ObjectPath="\Events\Default Work Unit\Play_BackingTrack"/>
+				<Event Id="4144819343" Name="Play_XyloBank1" ObjectPath="\Events\Default Work Unit\Play_XyloBank1"/>
+				<Event Id="4144819340" Name="Play_XyloBank2" ObjectPath="\Events\Default Work Unit\Play_XyloBank2"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="63787320" Language="SFX">
+					<ShortName>Xylophone D.wav</ShortName>
+					<Path>SFX/Xylophone D_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="128598227" Language="SFX">
+					<ShortName>Freebird bounce 1.wav</ShortName>
+					<Path>SFX/Freebird bounce 1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="176360983" Language="SFX">
+					<ShortName>Xylophone 2.wav</ShortName>
+					<Path>SFX/Xylophone 2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="187330731" Language="SFX">
+					<ShortName>Xylophone C.wav</ShortName>
+					<Path>SFX/Xylophone C_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="300461715" Language="SFX">
+					<ShortName>Xylophone 1.wav</ShortName>
+					<Path>SFX/Xylophone 1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="308377464" Language="SFX">
+					<ShortName>Xylophone E.wav</ShortName>
+					<Path>SFX/Xylophone E_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="394573437" Language="SFX">
+					<ShortName>Xylophone 3.wav</ShortName>
+					<Path>SFX/Xylophone 3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="461881476" Language="SFX">
+					<ShortName>Xylophone A.wav</ShortName>
+					<Path>SFX/Xylophone A_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="462093355" Language="SFX">
+					<ShortName>Xylophone 6.wav</ShortName>
+					<Path>SFX/Xylophone 6_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="517933060" Language="SFX">
+					<ShortName>Xylophone 8.wav</ShortName>
+					<Path>SFX/Xylophone 8_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="659711698" Language="SFX">
+					<ShortName>Xylophone 7.wav</ShortName>
+					<Path>SFX/Xylophone 7_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="879854156" Language="SFX">
+					<ShortName>Xylophone 4.wav</ShortName>
+					<Path>SFX/Xylophone 4_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="910034856" Language="SFX">
+					<ShortName>Xylophone 5.wav</ShortName>
+					<Path>SFX/Xylophone 5_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="913376396" Language="SFX">
+					<ShortName>Xylophone F.wav</ShortName>
+					<Path>SFX/Xylophone F_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1054237679" Language="SFX">
+					<ShortName>Xylophone B.wav</ShortName>
+					<Path>SFX/Xylophone B_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

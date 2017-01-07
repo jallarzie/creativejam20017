@@ -13,6 +13,9 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateSoundBanks\SelectedLanguages" Type="string" Value="DAAAAA=="/>
+				<Property Name="GenerateSoundBanks\SelectedPlatforms" Type="string" Value="7nz6IhclP0e/4TJ5273WVQ=="/>
+				<Property Name="GenerateSoundBanks\SelectedSoundBanks" Type="string" Value="TylDCchKIU+/v3SDuRXkEA=="/>
 				<Property Name="Interactive Music\{1AF73AD6-6F07-49A3-9F20-0C104ADC4271} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAKGFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{455FEF36-0F9F-4E67-8136-7CB4ABC45B9F} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAKGFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\{7EA7C351-940F-4C42-8460-D5D0F9FA3781} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAA4CZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
