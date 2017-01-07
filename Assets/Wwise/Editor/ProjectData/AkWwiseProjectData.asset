@@ -86,7 +86,10 @@ MonoBehaviour:
         ObjectType: 7
       ID: 133642231
       Guid: 4f294309c84a214fbfbf7483b915e410
-  ExpandedItems: []
+  ExpandedItems:
+  - /Freebird 2016.2.1 v1
+  - /Freebird 2016.2.1 v1/Events
+  - /Freebird 2016.2.1 v1/Events/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
