@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r10">
+    <folder id="0">
+        <file id="0" name="Creeper_LegF.png" width="403" height="298" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Creeper_LegB.png" width="350" height="486" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Creeper_Body.png" width="859" height="518" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Creeper_WingTip.png" width="740" height="435" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Creeper_head.png" width="788" height="560" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Creeper_Wing.png" width="816" height="494" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Creeper_Eye.png" width="182" height="140" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="bone_000" type="bone" w="224.589" h="10"/>
+        <obj_info name="bone_001" type="bone" w="224.589" h="10"/>
+        <obj_info name="bone_002" type="bone" w="328.469" h="10"/>
+        <obj_info name="bone_003" type="bone" w="432.001" h="10"/>
+        <obj_info name="bone_004" type="bone" w="144.917" h="10"/>
+        <obj_info name="bone_005" type="bone" w="337.891" h="10"/>
+        <obj_info name="bone_006" type="bone" w="147.187" h="10"/>
+        <obj_info name="bone_007" type="bone" w="324.863" h="10"/>
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="7" key="0"/>
+                    <bone_ref id="1" timeline="8" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="9" key="0"/>
+                    <bone_ref id="3" parent="2" timeline="10" key="0"/>
+                    <bone_ref id="4" timeline="11" key="0"/>
+                    <bone_ref id="5" parent="4" timeline="12" key="0"/>
+                    <bone_ref id="6" timeline="13" key="0"/>
+                    <bone_ref id="7" parent="6" timeline="14" key="0"/>
+                    <object_ref id="0" parent="6" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="5" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="5" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="1" key="0" z_index="3"/>
+                    <object_ref id="4" parent="3" timeline="3" key="0" z_index="4"/>
+                    <object_ref id="5" parent="2" timeline="4" key="0" z_index="5"/>
+                    <object_ref id="6" parent="1" timeline="6" key="0" z_index="6"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Creeper_LegB">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-198.332793" y="-115.499365" angle="42.797402"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Creeper_Body">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-431.796327" y="319.262586" angle="0.119556"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Creeper_LegB_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="115.786026" y="-322.705123" angle="140.042451"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Creeper_WingTip">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-166.763442" y="101.518247" angle="20.742322" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="Creeper_Wing">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-234.276706" y="219.46355" angle="9.462322" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="Creeper_head">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-325.003266" y="-159.420442" angle="50.782392" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="Creeper_Eye">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="-102.792435" y="-2.591406" angle="50.782392" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-295" y="326" angle="309.217608" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-296" y="327" angle="309.217608" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="240.902793" y="7.337864" angle="41.265425"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="340.324563" y="-34.525503" angle="337.792907"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-78" y="-62" angle="280.234803"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="143.026483" y="-1.193785" angle="278.790376"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="6" name="bone_006" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="109" y="-35" angle="321.282492"/>
+                </key>
+            </timeline>
+            <timeline id="14" obj="7" name="bone_007" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="132.6748" y="-46.145393" angle="260.796134"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
