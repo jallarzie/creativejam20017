@@ -27,18 +27,15 @@ public class SecondaryPController : MonoBehaviour {
 		if (inputDevice != null) {
 			if (inputDevice.Action1) {
 				animator.SetTrigger ("jumping");
-				//Crosscheck with pin color
 			} else if (inputDevice.Action2) {
 				animator.SetTrigger ("jumping");
-				//Crosscheck with pin
 			} else if (inputDevice.Action3) {
 				animator.SetTrigger ("jumping");
-				//Crosscheck with pin
 			} else if (inputDevice.Action4) {
 				animator.SetTrigger ("jumping");
-				//Crosscheck with pin
 			}
 		
+			//Crosscheck with pin color
 			//Line Controller has the pin list
 			//Crosscheck color with LineController (each player will have assignated lines)
 
