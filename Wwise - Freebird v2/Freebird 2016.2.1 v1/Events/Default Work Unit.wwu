@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_BackingTrack" ID="{E788FEBE-10EA-4930-9A41-674F47CFEDD9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6092F3F0-49AB-49E2-B115-E4A596378420}" ShortID="847718418" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0840EA3B-C3F4-48C3-A059-5BEE936B3652}" Global="false">
+									<ObjectRef Name="Backing_track" ID="{CBACE42C-35B2-4BE1-8BE7-CAD3C297E179}" WorkUnitID="{BC98F4A4-A084-42D6-9076-0B1EDE1CDFC3}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_XyloBank1" ID="{3D57F7D8-D849-4869-9AF3-74F9FA68FCD0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4C82F27A-1630-49DB-9E8A-26FC0E7414FB}" ShortID="998282719" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CA42BDCD-D519-4F24-863B-E7A98E62DC0A}" Global="false">
+									<ObjectRef Name="Xylo_banque1" ID="{EBF3C8E8-E925-462E-90F4-853578A35962}" WorkUnitID="{BC98F4A4-A084-42D6-9076-0B1EDE1CDFC3}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_XyloBank2" ID="{6AA55354-0EE4-46B1-B6CB-7696FA7FE938}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9515A385-EC97-4CEF-A417-69648DE5EFE0}" ShortID="621627960" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{377D1835-8986-47A1-BBE9-4AA9ED6A2106}" Global="false">
+									<ObjectRef Name="Xylo_banque2" ID="{C1BF0F07-6D3F-45EC-99EE-06E831A28AAF}" WorkUnitID="{BC98F4A4-A084-42D6-9076-0B1EDE1CDFC3}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
