@@ -10,12 +10,32 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="SaxBary_phrase1" ID="{FA4F0627-8833-45CE-9613-1F401437120A}" WorkUnitID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SaxBary_phrase5" ID="{0851C580-59F6-41F1-9F4F-979634EE4D0E}" WorkUnitID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_XyloBank1" ID="{3D57F7D8-D849-4869-9AF3-74F9FA68FCD0}" WorkUnitID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="SaxBary_phrase2" ID="{61A4F4E3-8AF5-4EA6-AACF-6F63260EF103}" WorkUnitID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_XyloBank2" ID="{6AA55354-0EE4-46B1-B6CB-7696FA7FE938}" WorkUnitID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SaxBary_phrase3" ID="{989B399E-8BF2-4257-9D24-ED0BE4B1A71B}" WorkUnitID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SaxBary_phrase4" ID="{BB210E27-8BDA-48BD-BEBF-7A3C88715B19}" WorkUnitID="{B297FA8B-9CC8-4E2D-94AF-27A90B605D03}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

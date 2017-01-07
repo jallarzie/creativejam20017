@@ -1040,6 +1040,2484 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="SaxBary_phrase1" ID="{841A1A2D-584E-457D-A07A-885AD15CEEBE}" ShortID="1014815206">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+						</Reference>
+						<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Saxophone baryton_bip a1" ID="{A9F5DA7A-8A43-477D-85D6-F67EEC2E2A77}" ShortID="500307804">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip a1" ID="{9E55C120-81B3-433C-88C1-205F3D455AF2}" ShortID="961546209">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip a1" ID="{42D249B2-E5CA-4625-9EBD-3079D29B34A9}" ShortID="1040046762">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip a1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7B8EE78B-326C-4D11-8C09-596D3C729AF6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6DDAF675-5B42-4E91-AB0E-2837468A355A}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip a1" ID="{13246315-A7D5-4B30-AC18-BCA985CEDDCA}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="562.49433106576"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="51.0018214936248"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip a1" ID="{42D249B2-E5CA-4625-9EBD-3079D29B34A9}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{CCA45AFB-688A-4464-9FEE-A44A1E91CE15}"/>
+								<MusicCue Name="Exit Cue" ID="{C062E47D-311B-4349-A6CF-D7B513EEACE1}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_1 a2" ID="{56B5C34A-258E-465E-94E7-40D4058EE4FF}" ShortID="675491945">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_1 a2" ID="{66DF6388-F4B9-4DD1-9893-42DFE2CED784}" ShortID="667280321">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_1 a2" ID="{014D7FA4-CA11-40B2-BE11-10742199CE0C}" ShortID="1012625883">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_1 a2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{33584B7D-1255-4C08-8375-1E1DD201ECCE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{272B3CDD-6B04-4C16-958C-73B0611F4032}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_1 a2" ID="{76444BAC-C3DB-466E-8349-79CBE7551998}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="374.988662131519"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945354"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_1 a2" ID="{014D7FA4-CA11-40B2-BE11-10742199CE0C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{07351482-6F2F-4D74-852E-A7A86FCD7E8A}"/>
+								<MusicCue Name="Exit Cue" ID="{D6CEADBF-4EFE-4C63-945A-64C2647768A0}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_3 a3" ID="{4B5B695A-3C80-4192-B794-5C2D319A05A4}" ShortID="498784731">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_3 a3" ID="{28B76EC2-02F2-4132-B0F2-9DB445135279}" ShortID="902087399">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_3 a3" ID="{2ACCF54F-C767-4711-A8C1-2C76004A790F}" ShortID="916400536">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_3 a3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5B9A88AA-C4CA-487F-9E58-E471B8D13E9C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{74C80449-307E-48E2-8CB5-530CEED872D6}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_3 a3" ID="{D5E523A8-F6FF-4F2F-AAB2-71B3915146BD}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="375.011337868481"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="65.5737704918033"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_3 a3" ID="{2ACCF54F-C767-4711-A8C1-2C76004A790F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7E4B132D-ABCC-4548-A3E4-FBB46746B1E0}"/>
+								<MusicCue Name="Exit Cue" ID="{D3C79683-7730-4E73-B0D4-F40C85C88757}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_4 a4" ID="{B0B5F66A-54F5-48E3-AC6C-B0A9949FDC3C}" ShortID="306849334">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_4 a4" ID="{3A8511A0-EE42-4F82-A396-5AE71DC0E1F7}" ShortID="534450170">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_4 a4" ID="{F5B4D525-9FA0-4297-8348-A87A718411EA}" ShortID="314734104">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_4 a4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4A37ABA7-EE5C-4518-97BF-A22A2B1F5679}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{D1C0A8BA-4B4A-4A61-AB56-E61EC55E9D80}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_4 a4" ID="{21DFC54C-554E-4DA9-90D3-96BDE1E24426}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="374.988662131519"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="36.4298724954463"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_4 a4" ID="{F5B4D525-9FA0-4297-8348-A87A718411EA}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D72F1CE3-1B67-418F-95E0-8F544206A48A}"/>
+								<MusicCue Name="Exit Cue" ID="{B64158E5-4C5D-4280-9AD2-037AFCEACC1B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_5 a5" ID="{26DDF5DA-1E0E-49E3-A499-6CDD05EBCC3F}" ShortID="215468120">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_5 a5" ID="{B7EC61F4-CEB0-4D3D-B225-23E562140925}" ShortID="289954843">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_5 a5" ID="{BF6725EA-A8D0-4409-8B31-124D1EE8BA28}" ShortID="1027545061">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_5 a5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0FB7B63A-58B2-4375-AA0C-8AE230C7EA63}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{DDCCBA00-64E1-49C8-8ED6-9E74EB5D7D65}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_5 a5" ID="{342F55ED-CA4E-4570-978C-57665C24574A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="375.011337868481"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945355"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_5 a5" ID="{BF6725EA-A8D0-4409-8B31-124D1EE8BA28}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{77DB45E7-1577-4A86-AC56-1775BFD680E0}"/>
+								<MusicCue Name="Exit Cue" ID="{06994ED1-62A1-4BC6-9280-530D41A87D4E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_6 a6" ID="{0B0E6D68-BC8B-48A9-8998-1F8EEDF11671}" ShortID="399850694">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_6 a6" ID="{04456A09-4BC6-44B5-B726-3DDCB21A1040}" ShortID="339550661">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_6 a6" ID="{7BDA97B9-304F-4C34-9999-3E16C66B0C99}" ShortID="522388486">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_6 a6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8BDEABC9-3ADB-49A3-A92D-1DF82F42CA87}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{108A1239-D302-4E5B-B238-A39F812D05B5}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_6 a6" ID="{8F4F837A-1D91-4DF4-AC35-BB605F2C31AE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="29.1438979963571"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_6 a6" ID="{7BDA97B9-304F-4C34-9999-3E16C66B0C99}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8D22C2CA-3F13-432F-9C16-270CCBA79F73}"/>
+								<MusicCue Name="Exit Cue" ID="{C1CA5403-8395-48D2-98A6-B7C3CF14212F}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_7 a7" ID="{1D1FBF29-1F5C-46A9-9FB0-8A94D5D6BA44}" ShortID="897676577">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_7 a7" ID="{88A79598-CE3C-42CC-89A1-400A544D1CF3}" ShortID="112475603">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_7 a7" ID="{8AE201F5-62C7-4D27-9BA6-2A7A06E4B2AE}" ShortID="333109982">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_7 a7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{996DF0BB-0617-40FF-B334-8C056ECA770F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{50073C53-F0BA-4DF4-B9CF-59096DD91480}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_7 a7" ID="{4F129C08-9E60-4520-9586-FFD544D961F3}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="374.988662131519"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945354"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_7 a7" ID="{8AE201F5-62C7-4D27-9BA6-2A7A06E4B2AE}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E77F5BA3-1E57-4F6D-9536-CA254B95B0CB}"/>
+								<MusicCue Name="Exit Cue" ID="{14341059-8568-433E-8526-CAAA6ACF3988}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{F555521E-8FC7-4F6D-BC94-B389DF91D283}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{83D9D0AC-0FCD-43E2-8C59-E9DDFC85721D}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{0D1BEAE8-9194-442B-89D1-04D55DB69C2C}" ShortID="705084443">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{46633609-ADFA-4E7A-981C-D739559E6EB4}" ShortID="278031804">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip a1" ID="{A9F5DA7A-8A43-477D-85D6-F67EEC2E2A77}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{7054233D-ACB9-4A0E-8F3A-C55A8DAB9B1D}" ShortID="459541418">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_1 a2" ID="{56B5C34A-258E-465E-94E7-40D4058EE4FF}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{448E825A-9DF5-4B5F-BC02-67042EC23FDD}" ShortID="255264861">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_3 a3" ID="{4B5B695A-3C80-4192-B794-5C2D319A05A4}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{01E53AED-C72C-4DED-96D3-6C39F4466713}" ShortID="789242090">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_4 a4" ID="{B0B5F66A-54F5-48E3-AC6C-B0A9949FDC3C}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{109E7DD6-03AF-4505-B4C0-EB46BC3A2CDC}" ShortID="1036775945">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_5 a5" ID="{26DDF5DA-1E0E-49E3-A499-6CDD05EBCC3F}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{A362B9D3-60E9-45B1-B5FD-2FE29FA8BB1E}" ShortID="354132526">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_6 a6" ID="{0B0E6D68-BC8B-48A9-8998-1F8EEDF11671}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{F8D0D9D8-6522-487B-AA42-00169174906C}" ShortID="950879291">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_7 a7" ID="{1D1FBF29-1F5C-46A9-9FB0-8A94D5D6BA44}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="SaxBary_phrase2" ID="{1E9ABAEC-6C62-4B79-87DC-CE864D43D273}" ShortID="1055002017">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Saxophone baryton_bip_8 b1" ID="{ED24F79D-D2DD-493E-8F32-B6111374FAE2}" ShortID="474197262">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_8 b1" ID="{AD3A14B1-EA80-4F45-81B1-67B4D2C6A34F}" ShortID="640101112">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_8 b1" ID="{59683DDE-E536-4EA6-8261-BA509EA5D7A3}" ShortID="419896836">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_8 b1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{30790467-8FC3-4200-8B20-B027458A8B2A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{79D2FE68-F0B5-4D2F-ABDF-2CC05BA6E670}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_8 b1" ID="{372708EA-8FF7-4D30-9094-F88C787A88F4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="374.988662131519"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="36.4298724954463"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_8 b1" ID="{59683DDE-E536-4EA6-8261-BA509EA5D7A3}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{36FCBD22-8A13-402E-8515-9F0ABD1643AA}"/>
+								<MusicCue Name="Exit Cue" ID="{CDD312FB-835C-4079-9F3F-9728BF76F817}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_9 b2" ID="{9E4EFE41-CD62-4917-A96A-6DEFFE81C192}" ShortID="332124041">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_9 b2" ID="{D3FF6982-D1CB-475E-8691-56C05D609599}" ShortID="265451767">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_9 b2" ID="{AB1317F9-14DA-43A0-8C12-7368D8F1C8C6}" ShortID="598836651">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_9 b2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{639D634F-498F-427F-A412-3C2A1F6D2D05}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B926F23C-7D5B-45AB-983C-B17CB079279E}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_9 b2" ID="{7EAD7E8F-A0A9-4F53-9FD7-F600C28296A2}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945357"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_9 b2" ID="{AB1317F9-14DA-43A0-8C12-7368D8F1C8C6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{5ED0DC0D-E4B9-42E7-854B-CCD4248B5D31}"/>
+								<MusicCue Name="Exit Cue" ID="{1FA3C5B5-5156-465E-B86C-A19CBE5C69DE}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_10 b3" ID="{C57FC41B-5E65-4C86-AE9C-0B56FFDCB44E}" ShortID="474813890">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_10 b3" ID="{2404AFFA-606A-4E94-BF9C-43E5FE293F57}" ShortID="350140082">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_10 b3" ID="{F86D0108-926E-41FF-8D7E-B7FA59C94CF5}" ShortID="98532227">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_10 b3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C6864E48-5029-4747-AC8E-CB7ABDCB15E5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F1F8579E-A621-4517-8A83-D4FE8785460F}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_10 b3" ID="{85F503C9-B953-4C9B-AA55-06979FE0735F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945355"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_10 b3" ID="{F86D0108-926E-41FF-8D7E-B7FA59C94CF5}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{1809C61D-B544-4FEB-895D-71FA981CEFA2}"/>
+								<MusicCue Name="Exit Cue" ID="{AF0776C0-1947-4031-B2E3-AA45FB9BF035}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_11 b4" ID="{955C03B2-1AF6-4E5B-8507-17A883FC5627}" ShortID="207539358">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_11 b4" ID="{5582BE5F-D94D-47ED-A0B7-D2F7C2E1F939}" ShortID="828013815">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_11 b4" ID="{DBE5DA01-AEF7-4FAA-BD17-C3F3421E4DA2}" ShortID="983077924">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_11 b4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F243681A-7EC1-49CA-84BC-F2890610C506}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{04A0F4AC-98CA-4700-B33C-B116B282BB41}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_11 b4" ID="{C8C27DF4-6772-4635-8F8B-E22493F8D053}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945357"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_11 b4" ID="{DBE5DA01-AEF7-4FAA-BD17-C3F3421E4DA2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{0319EF91-5FCD-4CA1-8D8F-C219C25DA7BB}"/>
+								<MusicCue Name="Exit Cue" ID="{50F475E2-5654-4EB1-BCC0-1C09EA382C5A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_12 b5" ID="{52F06058-493B-485D-8BD2-0A36365E8E0A}" ShortID="966460172">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_12 b5" ID="{95EA8CC4-77C6-4ECA-974F-A0448A444E35}" ShortID="1027649191">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_12 b5" ID="{85A2F931-20AB-49FF-8E89-30F50F1094A8}" ShortID="79733276">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_12 b5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8C1E310F-879A-4DCF-80AD-870CEC019CAC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{603E77E8-FE2B-4C44-ADFB-1337B1F0A033}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_12 b5" ID="{3EB946D5-16EC-427E-8C90-0E2ABC18B791}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="562.49433106576"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="36.4298724954463"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_12 b5" ID="{85A2F931-20AB-49FF-8E89-30F50F1094A8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{6C35E92C-9484-4283-AD78-5C71A9FC50B4}"/>
+								<MusicCue Name="Exit Cue" ID="{41E763C6-6E93-4022-BB44-58304619E6AB}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_13 b6" ID="{217CE767-85BB-4190-A5CE-11D1B9CE8F64}" ShortID="577142603">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_13 b6" ID="{9A78BF27-2DD5-45B4-9AE2-EA80E3A369F2}" ShortID="658755238">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_13 b6" ID="{5AC3B3DC-AA88-436A-86F6-1F96829EDE66}" ShortID="938172946">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_13 b6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7560F380-1F77-49AD-AB4D-1564A9D60CFA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E191ED89-39F7-45C2-B7AA-9CE212BEC7AF}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_13 b6" ID="{C364DAF5-9EF7-4F98-8088-E862F8D23235}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="29.1438979963571"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_13 b6" ID="{5AC3B3DC-AA88-436A-86F6-1F96829EDE66}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{47813D99-37F8-4D92-8617-23D2CABF277B}"/>
+								<MusicCue Name="Exit Cue" ID="{8C7294A1-3C24-43C4-A5B2-B48E43759AC9}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_14 b7" ID="{FD167F34-CEDF-46A7-B597-2FBF5CFAC65C}" ShortID="794445781">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_14 b7" ID="{DBCAE2F0-50C2-4E33-9698-2C7A0FE67E50}" ShortID="467060074">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_14 b7" ID="{F909985E-1B4A-40A9-A2B2-A3FEBA9CA57A}" ShortID="206473227">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_14 b7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{148260E8-B274-4583-913E-832E1895CF8F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8D4847B9-7E34-42AD-857F-FCD528D21F1A}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_14 b7" ID="{F6B57375-A958-4C72-9D4E-83E88C0F6B2D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.482993197279"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="36.4298724954463"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_14 b7" ID="{F909985E-1B4A-40A9-A2B2-A3FEBA9CA57A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{782FF00A-DF63-477A-A845-A9D239DF6539}"/>
+								<MusicCue Name="Exit Cue" ID="{98686111-C809-4D84-85D8-7E6D8C8525E6}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_15 b8" ID="{CE0FF071-7963-4039-A7AC-4A745CEAE944}" ShortID="1036937376">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_15 b8" ID="{DE5CD92E-AA29-4B3B-8EFF-5FDED2C89DC0}" ShortID="732111282">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_15 b8" ID="{77846EDD-3DA2-4AD6-8093-E224FA06C637}" ShortID="459929406">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_15 b8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{14F9B8D6-5EA3-41FC-B792-E100B473CA2C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C3C38417-0A7B-4B41-8CBF-6502BA2038A2}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_15 b8" ID="{E9389E47-616C-4F06-B5CD-B59826564C7D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="29.1438979963571"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_15 b8" ID="{77846EDD-3DA2-4AD6-8093-E224FA06C637}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8EE1C9F6-DA44-4112-9BDB-98DA242B0F8C}"/>
+								<MusicCue Name="Exit Cue" ID="{7AE6C828-DC1B-4690-8D12-4B011EE0187D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_16 b9" ID="{2E94BF98-1990-4709-86A7-953B103854BA}" ShortID="189537488">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_16 b9" ID="{7ED85C39-F2C0-46DD-83C1-8D1989F9197D}" ShortID="957507054">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_16 b9" ID="{2110C84D-51A4-4A0E-BFC3-5B05431EF233}" ShortID="102020338">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_16 b9.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{27877B20-6FAD-469C-A044-4A477A8D03F3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{66E487DE-36E2-448D-9E76-F786C234A3E6}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_16 b9" ID="{367210BF-AEF2-4EFF-8DAA-A1A9DC71402C}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="562.49433106576"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945356"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_16 b9" ID="{2110C84D-51A4-4A0E-BFC3-5B05431EF233}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{C4CD70AA-97B1-4499-AC36-6A6501E05A43}"/>
+								<MusicCue Name="Exit Cue" ID="{3F00BBA0-ACD2-4801-A169-F75BAC29C6E4}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_17 b10" ID="{BC981E6B-DE41-4565-9885-E00C845B4024}" ShortID="726773959">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_17 b10" ID="{D67BDFCB-560D-4267-9537-E033E8AF8036}" ShortID="500400320">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_17 b10" ID="{5106A438-8E7C-4B26-93A8-EBDB342B60C2}" ShortID="563614840">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_17 b10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{553614A9-3F66-4985-A5F3-82DD679E5A2B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6C0E1E6E-C892-4D62-ADBB-BC3C023DFDCF}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_17 b10" ID="{5AD71A0E-C6A0-4A8E-BE0A-990BB3962D0B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="750"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="72.8597449908925"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_17 b10" ID="{5106A438-8E7C-4B26-93A8-EBDB342B60C2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{A5CBFDF9-7CCA-4C9A-9F5C-C6FAFAEE3B01}"/>
+								<MusicCue Name="Exit Cue" ID="{0D96EEDB-A1D9-43E0-A834-79954A3B38ED}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{628DBD79-D865-4C52-9C8F-3DD85BB72BD3}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{DD5D93D8-E522-4D8D-9C1F-C9B0470F10E4}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{D281640B-2D45-44BA-A11A-E668DF8F6109}" ShortID="805570977">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{3C425618-BDA8-4014-BCEC-7AD2A1258C89}" ShortID="285021264">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_8 b1" ID="{ED24F79D-D2DD-493E-8F32-B6111374FAE2}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{9D0F82FC-125F-4745-8E2B-0ED19563270A}" ShortID="281496888">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_9 b2" ID="{9E4EFE41-CD62-4917-A96A-6DEFFE81C192}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{263FDDB4-61E1-4645-8EA6-C19ABC488241}" ShortID="336131011">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_10 b3" ID="{C57FC41B-5E65-4C86-AE9C-0B56FFDCB44E}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{8A900D5C-8B47-42B1-AF4D-59FF922A27F4}" ShortID="714035132">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_11 b4" ID="{955C03B2-1AF6-4E5B-8507-17A883FC5627}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{B21C7C72-9F63-4732-AE57-4C0EDD857B25}" ShortID="174995516">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_12 b5" ID="{52F06058-493B-485D-8BD2-0A36365E8E0A}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{AE9245A6-D932-4313-B4C6-ECC8A9304B1A}" ShortID="576345414">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_13 b6" ID="{217CE767-85BB-4190-A5CE-11D1B9CE8F64}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{202B0CBD-B351-406D-8909-E3B38B40EC94}" ShortID="678793839">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_14 b7" ID="{FD167F34-CEDF-46A7-B597-2FBF5CFAC65C}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{62B0EE32-CE8B-4B02-8720-76CE0AF49E15}" ShortID="288493137">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_15 b8" ID="{CE0FF071-7963-4039-A7AC-4A745CEAE944}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{0D683D89-1A99-4196-B2B7-14608860CDA3}" ShortID="85095565">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_16 b9" ID="{2E94BF98-1990-4709-86A7-953B103854BA}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{0150AC2B-916A-495D-ADF4-A5E35C3A977E}" ShortID="133576050">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_17 b10" ID="{BC981E6B-DE41-4565-9885-E00C845B4024}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="SaxBary_phrase3" ID="{44159902-21B8-4A6E-B710-121CC786B588}" ShortID="284951882">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Saxophone baryton_bip_18 c1" ID="{BCD4CB8C-4EE5-4C55-A29C-A53D1F54C728}" ShortID="603704036">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_18 c1" ID="{639EF310-6696-4604-A134-14665CDBA5EA}" ShortID="87529647">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_18 c1" ID="{251F7DE3-32DA-40E6-8D13-5D9B0AEE73FA}" ShortID="604310503">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_18 c1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4C522E31-2378-4C5D-B865-A24368A3A001}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F674DBCC-4BE9-4A61-BCF8-52AFFD3209EE}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_18 c1" ID="{9C0E323A-B0FB-4FDB-89CE-13069D9AE33A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="375.011337868481"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="36.4298724954463"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_18 c1" ID="{251F7DE3-32DA-40E6-8D13-5D9B0AEE73FA}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{EB751D10-1745-4C56-8F19-04AA87A05D05}"/>
+								<MusicCue Name="Exit Cue" ID="{62858A74-898E-4800-BDD9-59132AB48986}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_19 c2" ID="{2102D69B-1C17-41BC-8ABD-498E1C933D68}" ShortID="958930588">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_19 c2" ID="{BDB3CCEA-076E-4A76-9EFA-DD3F776D0C19}" ShortID="180385319">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_19 c2" ID="{585B022B-2C7F-4CD0-AEDC-A6E883D00A8B}" ShortID="531845496">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_19 c2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{83B35060-1587-4C21-B512-7AC10C50427C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{AA4C4926-E911-4E66-9EE6-7CB0124B415C}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_19 c2" ID="{57A99115-04B2-4FF7-9174-96C60691267A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.482993197279"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="21.8579234972678"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_19 c2" ID="{585B022B-2C7F-4CD0-AEDC-A6E883D00A8B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8A74B375-6A81-4191-9871-D22A8BC5FC45}"/>
+								<MusicCue Name="Exit Cue" ID="{2CD8BA4C-BE7E-484D-A6EF-DAAE858163F8}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_20 c3" ID="{21D22FC5-5CDA-4719-A8F9-C3E67C92F0C4}" ShortID="1006106122">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_20 c3" ID="{1435A6B1-E52E-493B-A28E-1B9B648516EF}" ShortID="742442452">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_20 c3" ID="{1ACD9F2A-A701-4534-9D87-E6D3C98EFC8C}" ShortID="101974444">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_20 c3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{78B8F3CC-F1E8-4833-91C5-4B60A2DD7B9E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{EEB85383-8618-48F2-98F6-7AE6624A2D81}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_20 c3" ID="{B75B82C7-01E7-4DD5-BFCC-662CABFEBE92}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="375.011337868481"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="36.4298724954463"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_20 c3" ID="{1ACD9F2A-A701-4534-9D87-E6D3C98EFC8C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{CF26C3B8-317F-467E-8E7D-A662382A8A47}"/>
+								<MusicCue Name="Exit Cue" ID="{49E8255A-CDE7-456C-BD6D-A7FB0504756B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_21 c4" ID="{0E1F0A49-B4FB-48EB-9DD6-AB1258D4E677}" ShortID="217057724">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_21 c4" ID="{4E153869-FFBE-4DFE-8D70-F6638263BBC0}" ShortID="172570486">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_21 c4" ID="{BFE5C041-7C27-4C3B-A7CF-ABDC97C7211F}" ShortID="783568652">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_21 c4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AE923155-DCE9-445C-B162-847863A2A6AE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{EEA83E87-9275-449D-9103-179FE0F63028}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_21 c4" ID="{6D85E03A-0DBB-407F-BFF8-5097B2DC8ED5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="374.988662131519"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945356"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_21 c4" ID="{BFE5C041-7C27-4C3B-A7CF-ABDC97C7211F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{22E45C56-C4F1-4E4D-97CB-84F1E3E2BBDC}"/>
+								<MusicCue Name="Exit Cue" ID="{2505F99B-844D-4186-98E5-CD1792008355}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_22 c5" ID="{FB978A49-5ED1-4F5E-A197-07B0753F6943}" ShortID="670140917">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_22 c5" ID="{179D2492-9C48-433D-81C7-DCBA69FF080E}" ShortID="335951437">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_22 c5" ID="{E736E5E8-2D68-431C-89ED-BC83DFF2C694}" ShortID="657277382">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_22 c5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{458D6E47-7B39-4775-A49B-1EEB2BDD1B6E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{81CB49D3-CEB2-45E7-AF3A-91DF61471D59}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_22 c5" ID="{6649AFEF-B3BB-4977-BCC3-C744B80FAE5D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="21.8579234972676"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_22 c5" ID="{E736E5E8-2D68-431C-89ED-BC83DFF2C694}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D4E5FA59-767A-4901-8B9F-1CAAEA7462DD}"/>
+								<MusicCue Name="Exit Cue" ID="{D751A7C0-0D75-4995-AE9F-B9493C09B559}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_23 c6" ID="{F6B5436B-54FE-45F8-9FB6-2C53E04C449A}" ShortID="1071872033">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_23 c6" ID="{D9E88F14-C01F-4CBD-81DF-1E1945C7C331}" ShortID="608538558">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_23 c6" ID="{55073244-ED85-439D-B696-D48CAFD3E45E}" ShortID="876302153">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_23 c6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{69A62916-2CC0-41DA-8AC6-111C3D54D653}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C43E2649-F7E8-46D6-8B23-C66FB98AC45F}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_23 c6" ID="{C8783221-51C4-4B54-B175-D886D10F066F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="750"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="65.5737704918033"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_23 c6" ID="{55073244-ED85-439D-B696-D48CAFD3E45E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{2FD34FD4-0989-45BE-B1AE-386ECB4CB0D2}"/>
+								<MusicCue Name="Exit Cue" ID="{D8EE9F84-624D-4E34-8EDB-8A67FD279003}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_24 c7" ID="{370ECB0C-8DC6-4CF2-A8EE-BBF7284CA4DF}" ShortID="191136304">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_24 c7" ID="{379CC060-3847-49EF-914E-99A8C077E8BA}" ShortID="1073094264">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_24 c7" ID="{B7DCEBFA-912C-4F24-98EE-F5BAEC14A7A4}" ShortID="921707916">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_24 c7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7515F98C-BA7B-4F33-97D7-C3A2A3F5E779}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{84329939-070F-47EE-8234-783936F82003}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_24 c7" ID="{64D6EDFF-26EC-4584-9871-956C7A5CB95A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="750"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="58.287795992714"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_24 c7" ID="{B7DCEBFA-912C-4F24-98EE-F5BAEC14A7A4}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{556F7E1F-F8FF-42DF-8F52-4E6BEF5BC7B2}"/>
+								<MusicCue Name="Exit Cue" ID="{6716DC6A-D347-4B1E-B8E5-ECD5A50C2173}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_25 c8" ID="{169E7317-D179-4275-929D-6090FE91C03F}" ShortID="610821888">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_25 c8" ID="{0D71956C-3DCA-460B-B39C-27316CE4E6C5}" ShortID="679537582">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_25 c8" ID="{A7467A69-6864-4D17-88D8-997A1D37A90E}" ShortID="803533386">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_25 c8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EA4D44C2-B368-4514-A0C3-BC42878B1301}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{682D9BDB-7CE5-49E7-AD92-16DE7AB56415}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_25 c8" ID="{0C9CC85D-1755-4255-BB10-FBAA70575D3E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="2375.01133786848"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="51.0018214936249"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_25 c8" ID="{A7467A69-6864-4D17-88D8-997A1D37A90E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{EE1A128A-F28F-42C5-B2FD-ABF41D35B225}"/>
+								<MusicCue Name="Exit Cue" ID="{4CC2F808-807F-43DC-B83F-743AD2E90979}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="2375.01133786848"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{9A815AB5-C460-4ED3-8F14-54D74C66CDBD}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{10882A55-2EB6-42C9-9066-8B62221662EA}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{3BA9D245-E66F-4764-809C-0A00D3276573}" ShortID="146236344">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{D79558E5-102A-422F-BEFF-1A8FE07B92F0}" ShortID="893510255">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_18 c1" ID="{BCD4CB8C-4EE5-4C55-A29C-A53D1F54C728}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{5089B2B7-777B-4CF3-A70D-2E318685DCDF}" ShortID="522079535">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_19 c2" ID="{2102D69B-1C17-41BC-8ABD-498E1C933D68}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{3E912C8B-872D-4064-A9E6-8631BFA3648C}" ShortID="897339095">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_20 c3" ID="{21D22FC5-5CDA-4719-A8F9-C3E67C92F0C4}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{0120F438-30B1-4484-B08B-4793B3FDF433}" ShortID="1067371296">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_21 c4" ID="{0E1F0A49-B4FB-48EB-9DD6-AB1258D4E677}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{9F4CEFB1-3819-4D0D-A53C-0DD1CE3BFCE2}" ShortID="544005932">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_22 c5" ID="{FB978A49-5ED1-4F5E-A197-07B0753F6943}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{3B8032C2-07EB-49F0-8CD6-F3BFF10CD285}" ShortID="177225478">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_23 c6" ID="{F6B5436B-54FE-45F8-9FB6-2C53E04C449A}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{74BDCBC6-E3A8-426E-A19B-E41927178547}" ShortID="1057115439">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_24 c7" ID="{370ECB0C-8DC6-4CF2-A8EE-BBF7284CA4DF}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{8F0E20E4-DA5F-4E1F-9E87-BF801A8C6D8D}" ShortID="705930076">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_25 c8" ID="{169E7317-D179-4275-929D-6090FE91C03F}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="SaxBary_phrase4" ID="{9D47DBC2-2CBB-4EC8-A88F-757EA4D8DA3D}" ShortID="777343488">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Saxophone baryton_bip_26 d1" ID="{DBEAA9A0-8C31-4392-8E4D-0549A058DD17}" ShortID="609430847">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_26 d1" ID="{491E7E57-0CF1-4BBF-ACD3-28ED72562ACB}" ShortID="113915803">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_26 d1" ID="{550A7DBF-0AFD-4E5C-990E-165AE237DBF8}" ShortID="879519361">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_26 d1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D9753B55-57DD-4417-B93C-0DA75958C3C0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{AC5E59A1-7529-4AD2-976A-A4231D488E88}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_26 d1" ID="{C98051F3-658E-41C3-818B-D122EEA8D9F5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="21.8579234972678"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_26 d1" ID="{550A7DBF-0AFD-4E5C-990E-165AE237DBF8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{F6E0166D-FA1A-4DA5-B031-071B73976786}"/>
+								<MusicCue Name="Exit Cue" ID="{30357036-962A-41ED-9047-4855E6D064A3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_27 d2" ID="{8FFC8C1E-15C0-47BC-99B5-1EF63D3B9C4E}" ShortID="250613760">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_27 d2" ID="{B6F32CB3-8E6A-44F3-9573-1F38916289DF}" ShortID="273300761">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_27 d2" ID="{5A2773C4-25C4-471D-AF17-F2E6AFB239B2}" ShortID="442119454">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_27 d2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2BD02332-ABBF-405F-8CFA-8E3BB40B69EA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{137AE61A-C910-4F0C-AF43-A59FAB5BBD0B}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_27 d2" ID="{B9D37733-C133-45E5-8AD0-0DB55D845511}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.482993197279"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="21.8579234972676"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_27 d2" ID="{5A2773C4-25C4-471D-AF17-F2E6AFB239B2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{72E4646B-2E62-4187-B366-DD7A12B0361E}"/>
+								<MusicCue Name="Exit Cue" ID="{63799849-28A9-4642-989B-C5637F2D413C}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_28 d3" ID="{A7109EE7-F257-42C0-91FB-E1EDF7BF96B7}" ShortID="277212664">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_28 d3" ID="{C6D5D662-A11C-473E-94F6-16EC63632A6B}" ShortID="584003274">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_28 d3" ID="{3140C278-2A5C-4F52-8F55-F11A098AEB06}" ShortID="589684609">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_28 d3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{49884726-993D-456E-BAD8-9038EEF829CF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{00849EDD-3D78-42FC-9044-0EFB6F18BEB5}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_28 d3" ID="{10A0EB23-1547-4C1C-A5B0-DD675B008C51}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="29.1438979963571"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_28 d3" ID="{3140C278-2A5C-4F52-8F55-F11A098AEB06}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{77CEE8FB-277C-41CD-9246-F6A27C47F7A4}"/>
+								<MusicCue Name="Exit Cue" ID="{0EB2B0D0-1E5D-4FDD-9537-A4D8ED128CE3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_29 d4" ID="{1F33C6F9-6D63-4AF2-9194-4C9CA0590C2D}" ShortID="297048004">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_29 d4" ID="{B78DCD38-F690-4961-A72A-B84E6F7047E1}" ShortID="197002825">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_29 d4" ID="{45900D8C-6C05-4F70-AE8D-E475FAB0619D}" ShortID="452243305">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_29 d4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{BB26895D-B63E-47F6-B85E-F41A4095B5F7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8FD1BFA3-10CE-4E64-9BD1-E19CF8273788}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_29 d4" ID="{5D4A7E40-DF84-486A-9D5A-2B63A9C34888}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="43.7158469945355"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_29 d4" ID="{45900D8C-6C05-4F70-AE8D-E475FAB0619D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{28F39231-DA04-40BD-9A12-B360EAE1E6E9}"/>
+								<MusicCue Name="Exit Cue" ID="{4011DEFE-D317-4066-B6ED-6A1F5530E79B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_30 d5" ID="{288A9925-E052-4D06-80D3-F0094CD8BEC3}" ShortID="67589688">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_30 d5" ID="{03FA5C1E-B9B6-494C-90FD-CFE8C66601F1}" ShortID="323878663">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_30 d5" ID="{BB6B9376-8559-4870-9944-A76AE9989773}" ShortID="424137348">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_30 d5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{60D25779-88E4-4765-A5B4-40988814621C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{23D5B19C-65D7-4F67-BB7F-3853CE43519C}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_30 d5" ID="{80DA247E-D529-431C-92D0-64F6C28DA765}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="14.5719489981782"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_30 d5" ID="{BB6B9376-8559-4870-9944-A76AE9989773}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{6B2357FE-79A9-4C1E-A3AA-1EDEA352994B}"/>
+								<MusicCue Name="Exit Cue" ID="{C3E4FFA6-E1E0-4123-966B-591567BA13F3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_31 d6" ID="{5D9BF79E-9794-46CE-8C61-847607E66D1A}" ShortID="507819945">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_31 d6" ID="{B1D5E91C-C148-45C5-8FC4-3C72D9A9FD50}" ShortID="179077505">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_31 d6" ID="{06E8FA42-B102-46B0-B2FE-4260F2CC0CDA}" ShortID="482390508">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_31 d6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A7FE02BA-AFF3-415B-9D49-F5EE18EEDACC}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8A0A9845-8A94-404D-8A35-1AAC48841BF2}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_31 d6" ID="{7BEFC3E3-C9ED-4383-A905-0E6C543DCB54}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="812.49433106576"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="65.5737704918034"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_31 d6" ID="{06E8FA42-B102-46B0-B2FE-4260F2CC0CDA}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{35D7F297-BB94-4A74-80E5-96023252C342}"/>
+								<MusicCue Name="Exit Cue" ID="{E24D1069-7664-4AD5-8F6C-9CDD470E9EE4}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{B21B8EBB-C035-4E23-9ED6-D3CB2760FA66}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{EF56CCF9-A454-4909-8AC6-44CACFEB487B}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{5F0A5D6F-3F80-45D3-92E5-B7F55CB7DE5F}" ShortID="446908875">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{EF95465E-C1DE-4C79-AF76-F9440EA7E914}" ShortID="710784226">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_26 d1" ID="{DBEAA9A0-8C31-4392-8E4D-0549A058DD17}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{A0617E37-14D9-4105-83BA-5BCB310ACA93}" ShortID="784849023">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_27 d2" ID="{8FFC8C1E-15C0-47BC-99B5-1EF63D3B9C4E}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{D452EFF5-0036-43E5-8C70-D5B0A79479F2}" ShortID="358170289">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_28 d3" ID="{A7109EE7-F257-42C0-91FB-E1EDF7BF96B7}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{CE827CCE-455B-4201-910F-F3B85D613B17}" ShortID="274016726">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_29 d4" ID="{1F33C6F9-6D63-4AF2-9194-4C9CA0590C2D}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{0B175EC0-34BB-4B45-9592-FCA137F89FAC}" ShortID="709903774">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_30 d5" ID="{288A9925-E052-4D06-80D3-F0094CD8BEC3}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{CA444A8F-CD39-470A-8374-D5BD989EEE3B}" ShortID="660837160">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_31 d6" ID="{5D9BF79E-9794-46CE-8C61-847607E66D1A}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="SaxBary_phrase5" ID="{7D8924AB-74E6-4143-8DE2-E6066E3FEA24}" ShortID="914472127">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Saxophone baryton_bip_38 f1" ID="{992450B8-0E36-4884-80ED-D15D70F15B8A}" ShortID="692863187">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_38 f1" ID="{5A79A270-0763-45D5-885A-1CD25BEB36AB}" ShortID="192288484">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_38 f1" ID="{E9E1C003-5FA3-4A4A-A680-F99C10C17B01}" ShortID="759674467">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_38 f1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{FFBB411E-FF5A-4FAF-9F99-3B25B44057A3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C169A968-B0D9-48B3-B645-E4913F09D13C}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_38 f1" ID="{8FB0A086-E084-4DED-B81E-2C53B586FEE3}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="21.8579234972678"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_38 f1" ID="{E9E1C003-5FA3-4A4A-A680-F99C10C17B01}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{13718501-CF9D-4375-9D2F-E11DA4CEAD07}"/>
+								<MusicCue Name="Exit Cue" ID="{5C8BC600-DB4A-40E3-BF9F-3C2E7E72F15B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_39 f2" ID="{1376BE05-05DD-4BDA-8802-D1CCE60729CA}" ShortID="203270340">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_39 f2" ID="{0C60D3BD-A752-46F5-B16A-FD14ACC85548}" ShortID="834842705">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_39 f2" ID="{E1602004-AA92-4F34-A7A4-8B468BCC418E}" ShortID="70853883">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_39 f2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6AC1E4EC-1734-4CF0-A31A-CA6D0C115C16}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{EFF27B84-1AE9-474A-811A-099BDEE7CAB3}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_39 f2" ID="{6DD4F3AF-C3B4-4A86-BED1-E84AA79A0113}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.482993197279"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="21.8579234972678"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_39 f2" ID="{E1602004-AA92-4F34-A7A4-8B468BCC418E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{CF048894-C37E-4CF8-BCB9-6ADA84352768}"/>
+								<MusicCue Name="Exit Cue" ID="{828A7D11-5F3A-480D-A48E-9C2F1AA9B068}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_40 f3" ID="{44B9D543-6203-4778-8807-D67442E8E6C4}" ShortID="712873397">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_40 f3" ID="{A30CAA70-D8A8-4208-AE5E-82DD78536CF8}" ShortID="336419658">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_40 f3" ID="{41BC10F7-1D1C-42E9-8E1E-C1EA2DBA836E}" ShortID="991707243">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_40 f3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D3CB141E-63FE-4F01-B232-5E413480FE0B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{7710E41F-8F4F-45ED-AFC4-3B8D69DA2BD8}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_40 f3" ID="{A9AAEF55-6A38-4000-9E65-C42A79649E40}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="29.1438979963571"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_40 f3" ID="{41BC10F7-1D1C-42E9-8E1E-C1EA2DBA836E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{675186AD-DFA4-4E14-8F8E-679D94186ECF}"/>
+								<MusicCue Name="Exit Cue" ID="{784E2D8F-7BB9-4C9B-923C-2680A78A3E82}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_41 f4" ID="{9DA1F5DD-7525-4425-B57A-F9BD3B12A385}" ShortID="562345588">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_41 f4" ID="{6C671ECA-9B48-4BFD-B932-DB921274BC9E}" ShortID="630673596">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_41 f4" ID="{92F9D5D9-3417-4866-A8D7-AE31CA5660A7}" ShortID="436946768">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_41 f4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8C5A4555-BFE2-4D32-82D2-0F3E618E68C3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E23369DC-939E-4BF4-93D0-2898D1E9BA6B}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_41 f4" ID="{16CEFFEE-3E4E-499B-AD01-11BFF54EF029}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="36.4298724954463"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_41 f4" ID="{92F9D5D9-3417-4866-A8D7-AE31CA5660A7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{03E576FD-0759-4BDC-A3DB-15C923E073AB}"/>
+								<MusicCue Name="Exit Cue" ID="{101331A8-DE95-4F61-8346-1E89972C9643}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_42 f5" ID="{AE08FD91-3882-473D-A374-2F7BE6B786D3}" ShortID="812829258">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_42 f5" ID="{3A5F16D9-0CE1-45CB-B64B-1C1E5FAB916C}" ShortID="477811323">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_42 f5" ID="{4CFAE0FA-F720-46A3-8753-302A80E47192}" ShortID="827418714">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_42 f5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{646C4B84-DB72-4F09-A1C5-D083ABFBD0B2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{18A7CE3A-1218-4C3E-848A-92DEB1574F7B}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_42 f5" ID="{E999E792-7E37-497A-A8CE-B54829F8B496}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="187.50566893424"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="29.1438979963571"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_42 f5" ID="{4CFAE0FA-F720-46A3-8753-302A80E47192}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{819D0FE8-184A-446C-9E1D-1169E6ADFA9E}"/>
+								<MusicCue Name="Exit Cue" ID="{A1ED0EE6-D185-4A34-AB22-9B62EF3E5F4D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Saxophone baryton_bip_43 f6" ID="{5E5EE5FD-6D7F-49C6-A8C7-78761BF4BF5C}" ShortID="1027588422">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83256C7A-8B42-4CF0-8118-F8E44B7DD661}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Saxophone baryton_bip_43 f6" ID="{29951D62-7949-4C0B-8CB5-B7D8F689CDCF}" ShortID="369400892">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0DEC4193-EDF0-46E0-A6F0-A80C5D2ABB1E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Saxophone baryton_bip_43 f6" ID="{EDADC1BF-CBDC-425E-9DA6-10CCB96C8DE1}" ShortID="253789071">
+											<Language>SFX</Language>
+											<AudioFile>Saxophone baryton_bip_43 f6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{504EEAA3-A015-47A0-99CE-01FE802CF0A7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{471165B2-E2AA-426F-8B67-AD75227C31FA}">
+											<ClipList>
+												<MusicClip Name="Saxophone baryton_bip_43 f6" ID="{9D9A3D6A-EFBA-47DA-83D7-251B50FE97A8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="750"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="36.4298724954463"/>
+													</PropertyList>
+													<AudioSourceRef Name="Saxophone baryton_bip_43 f6" ID="{EDADC1BF-CBDC-425E-9DA6-10CCB96C8DE1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{585A579F-4200-4B76-A399-C1E0C7F4E921}"/>
+								<MusicCue Name="Exit Cue" ID="{F3E0D6D4-891A-494B-98D5-E6F68879E732}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{67111C87-FF60-4749-BE7C-A6CA2C93822C}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{9C6A460C-A58B-4C8F-A5CD-F3BDE9438D9A}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{E7324D5D-A5AC-49FB-BEE5-C77C5B708CFB}" ShortID="859171165">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{57D8007D-CF68-41D8-8C31-86042B868915}" ShortID="791581493">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_38 f1" ID="{992450B8-0E36-4884-80ED-D15D70F15B8A}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{FDF1CE5F-B481-40B9-805F-E6E747DD0333}" ShortID="527234453">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_39 f2" ID="{1376BE05-05DD-4BDA-8802-D1CCE60729CA}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{B1048CC8-30DA-4960-A362-EBF1B248F0C4}" ShortID="941142255">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_40 f3" ID="{44B9D543-6203-4778-8807-D67442E8E6C4}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{54545768-49F8-405A-B00F-7A67A23C0E7C}" ShortID="68008226">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_41 f4" ID="{9DA1F5DD-7525-4425-B57A-F9BD3B12A385}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{1DC9E303-98DD-40E8-AE49-75AFD735F477}" ShortID="660422727">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_42 f5" ID="{AE08FD91-3882-473D-A374-2F7BE6B786D3}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{9E043157-6539-4A6E-A5A9-1135B6542A8D}" ShortID="207681360">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Saxophone baryton_bip_43 f6" ID="{5E5EE5FD-6D7F-49C6-A8C7-78761BF4BF5C}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
