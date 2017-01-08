@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 0e637edc13a91ca45900d7d8091d48cc
-timeCreated: 1483885285
+guid: 314f6ef8f6744d745a69a7e8e1418c85
+timeCreated: 1483891543
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -27,7 +27,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -5
-  maxTextureSize: 2048
+  maxTextureSize: 256
   textureSettings:
     filterMode: -1
     aniso: -1
@@ -53,7 +53,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: Basket
+  spritePackingTag: CreeperJump
   userData: 
   assetBundleName: 
   assetBundleVariant: 
