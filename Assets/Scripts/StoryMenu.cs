@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using InControl;
 
-public class MainMenu : MonoBehaviour {
+public class StoryMenu : MonoBehaviour {
 	
 	[SerializeField]
 	private Animator canvasAnimator;
@@ -14,14 +14,12 @@ public class MainMenu : MonoBehaviour {
 
     public void Update()
     {
-		if (Time.timeSinceLevelLoad < 12f) {
+		if (Time.timeSinceLevelLoad > 12f) {
 			LoadScene ("scene_title");
-		}
-		if (InputManager.ActiveDevice != null) {
-			if (InputManager.ActiveDevice.GetControl (InputControlType.Start)) {
-				Application.Quit ();
+		} else if (InputManager.ActiveDevice != null) {
+			if (InputManager.ActiveDevice.AnyButton.WasPressed) {
+				LoadScene ("scene_title");
 			}
 		}
-
     }
 }

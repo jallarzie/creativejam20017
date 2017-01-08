@@ -8,10 +8,18 @@ public class TitleMenu : MonoBehaviour {
 	[SerializeField]
 	private Animator canvasAnimator;
 	[SerializeField]
+	private GameObject pressToPlay;
+	[SerializeField]
 	private GameObject instructions;
 
 	public void LoadScene(string loadedScene){
 		SceneManager.LoadScene (loadedScene, LoadSceneMode.Single);
+	}
+
+	public void showInstructions(){
+		canvasAnimator.Stop ();
+		pressToPlay.SetActive (false);
+		instructions.SetActive (true);
 	}
 	
 	// Update is called once per frame
@@ -21,11 +29,11 @@ public class TitleMenu : MonoBehaviour {
 				Application.Quit ();
 			}
 			if (InputManager.ActiveDevice.AnyButton.WasPressed) {
-				if (!instructions.activeSelf) {
-					canvasAnimator.Stop ();
-					instructions.SetActive (true);
-				} else if (instructions.activeSelf) {
-					LoadScene ("scene_main");			
+				Debug.Log ("button was pressed");
+				if (instructions.activeSelf) {
+					LoadScene ("scene_main");
+				} else {
+					showInstructions ();			
 				}
 			}
 		}
