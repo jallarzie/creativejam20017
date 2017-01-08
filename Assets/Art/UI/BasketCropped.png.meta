@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 0e637edc13a91ca45900d7d8091d48cc
-timeCreated: 1483885285
+guid: 69f8c40085805874cad68469353dc1d3
+timeCreated: 1483891314
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -53,7 +53,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: Basket
+  spritePackingTag: BasketCropped
   userData: 
   assetBundleName: 
   assetBundleVariant: 

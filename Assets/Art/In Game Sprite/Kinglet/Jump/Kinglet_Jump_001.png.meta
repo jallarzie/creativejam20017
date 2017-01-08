@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 0e637edc13a91ca45900d7d8091d48cc
-timeCreated: 1483885285
+guid: 0aab054a3c83e5847a315ce67f60e5a3
+timeCreated: 1483891973
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -27,7 +27,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -5
-  maxTextureSize: 2048
+  maxTextureSize: 256
   textureSettings:
     filterMode: -1
     aniso: -1
@@ -53,7 +53,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: Basket
+  spritePackingTag: Kinglet_Jumping
   userData: 
   assetBundleName: 
   assetBundleVariant: 
