@@ -27,9 +27,20 @@ public class LineController : MonoBehaviour {
     private SecondaryPController player;
 
     [SerializeField]
+    private AudioSource sequenceSoundSource;
+
+    [SerializeField]
+    private AudioSource extraSoundSource;
+
+    [SerializeField]
     private AudioClip[] soundClips;
 
-    private int soundIndex;
+    [SerializeField]
+    private TextAsset sequence;
+
+    private int soundIndex = 0;
+
+    private int sequenceIndex = 0;
 
     private float _timeToNextPin = 0f;
     public bool spinning { get; private set; }
@@ -113,16 +124,36 @@ public class LineController : MonoBehaviour {
                 if (comingPins.Peek().transform.position.x < (jumpPoint.position.x - jumpLeeway))
                 {
                     goingPins.Enqueue(comingPins.Dequeue());
+                    sequenceSoundSource.PlayOneShot(soundClips[soundIndex++]);
                     player.Stumble();
                 }
             }
 
             if ((_timeToNextPin -= Time.deltaTime) <= 0f)
             {
-                ClothesPin pin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
-                pin.clothesColor = (ClothesPinColor)Random.Range(0, 4);
-                pin.transform.position = startPoint.position;
-                comingPins.Enqueue(pin);
+                char nextPin = sequence.text[sequenceIndex++];
+
+                if (nextPin != 'x' && nextPin != 'X')
+                {
+                    ClothesPin pin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
+                    switch (nextPin)
+                    {
+                        case 'G':
+                            pin.clothesColor = ClothesPinColor.Green;
+                            break;
+                        case 'B':
+                            pin.clothesColor = ClothesPinColor.Blue;
+                            break;
+                        case 'R':
+                            pin.clothesColor = ClothesPinColor.Red;
+                            break;
+                        case 'Y':
+                            pin.clothesColor = ClothesPinColor.Yellow;
+                            break;
+                    }
+                    pin.transform.position = startPoint.position;
+                    comingPins.Enqueue(pin);
+                }
 
                 _timeToNextPin = 15f / bpm;
             }
