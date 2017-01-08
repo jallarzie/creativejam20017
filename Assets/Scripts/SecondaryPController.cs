@@ -38,7 +38,7 @@ public class SecondaryPController : MonoBehaviour {
                 line.StartSpinning();
             }
 
-            if (inputDevice != null)
+			if (Time.timeScale > 0 && inputDevice != null)
             {
                 if (inputDevice.Action1.WasPressed)
                 {
