@@ -105,7 +105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &15239684
 RectTransform:
   m_ObjectHideFlags: 0
@@ -249,8 +249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db9f12bdf0af2a0418115078d417560d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  basePath: Audio\GeneratedSoundBanks
-  language: English(US)
+  basePath: 417564696f5c47656e657261746564536f756e6442616e6b73
+  language: 456e676c69736828555329
   defaultPoolSize: 4096
   lowerPoolSize: 2048
   streamingPoolSize: 1024
@@ -422,7 +422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<b>Animator</b>\nLulu Xiang\n\n<b>Game Designer</b>\nGuylaine \"Ren\" Drolet\n\n<b>Programmer</b>\nAudrey
+  m_Text: "<b>Artist</b>\nLulu Xiang\n\n<b>Game Designer</b>\nGuylaine \"Ren\" Drolet\n\n<b>Programmer</b>\nAudrey
     \"Jal\" Paiement\n\n<b>Sound Designer</b>\nMarc-Antoine Gigu\xE8re"
 --- !u!222 &212160381
 CanvasRenderer:
@@ -461,6 +461,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listenerId: 0
+  m_Position: {x: 0, y: 0, z: 0}
+  m_Top: {x: 0, y: 0, z: 0}
+  m_Front: {x: 0, y: 0, z: 0}
 --- !u!124 &258250426
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1282,7 +1285,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Though... You've made it across.
+  m_Text: Though... You've made it across...
 --- !u!222 &1206709977
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1513,6 +1516,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1429191990}
+  - 95: {fileID: 1429191991}
   m_Layer: 5
   m_Name: WinKid1Bird
   m_TagString: Untagged
@@ -1543,6 +1547,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.000004708767}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1429191991
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429191989}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b647f430b7914974782a465733121d53, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1475363089
 GameObject:
   m_ObjectHideFlags: 0
