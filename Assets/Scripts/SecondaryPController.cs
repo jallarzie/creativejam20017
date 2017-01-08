@@ -90,12 +90,12 @@ public class SecondaryPController : MonoBehaviour {
     {
         animator.SetTrigger("jumping");
         balance = Mathf.Min(1.0f, balance + 0.1f);
-        animator.SetFloat("balance", balance);
+        //animator.SetFloat("balance", balance);
     }
 
     public void Stumble()
     {
-        balance = Mathf.Max(0.0f, balance - 0.5f);
-        animator.SetFloat("balance", balance);
+        balance = Mathf.Max(0.0f, balance - 0.1f);
+       //animator.SetFloat("balance", balance);
     }
 }
