@@ -11,6 +11,8 @@ public class TitleMenu : MonoBehaviour {
 	private GameObject pressToPlay;
 	[SerializeField]
 	private GameObject instructions;
+	[SerializeField]
+	private GameObject title;
 
 	public void LoadScene(string loadedScene){
 		SceneManager.LoadScene (loadedScene, LoadSceneMode.Single);
@@ -19,6 +21,7 @@ public class TitleMenu : MonoBehaviour {
 	public void showInstructions(){
 		canvasAnimator.Stop ();
 		pressToPlay.SetActive (false);
+		title.SetActive (false);
 		instructions.SetActive (true);
 	}
 	

@@ -32,7 +32,7 @@ public class MainPController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (inputDevice != null) {
+		if (Time.timeScale > 0 && inputDevice != null) {
 			if (inputDevice.DPadUp.WasPressed || inputDevice.LeftStickY > 0) {
 				if (lineIndex != 0) {
 					lineIndex--;

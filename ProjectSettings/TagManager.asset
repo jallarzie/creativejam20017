@@ -48,3 +48,6 @@ TagManager:
   - name: Characters
     uniqueID: 3468902785
     locked: 0
+  - name: Pause
+    uniqueID: 3184785077
+    locked: 0
