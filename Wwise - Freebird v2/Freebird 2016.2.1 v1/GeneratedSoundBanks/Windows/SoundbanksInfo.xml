@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/creativejam2017/Wwise - Freebird v2/Freebird 2016.2.1 v1/</ProjectRoot>
-		<SourceFilesRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/creativejam2017/Wwise - Freebird v2/Freebird 2016.2.1 v1/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/creativejam2017/Wwise - Freebird v2/Freebird 2016.2.1 v1/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Jalla\creativejam2017\Wwise - Freebird v2\Freebird 2016.2.1 v1\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Jalla\creativejam2017\Wwise - Freebird v2\Freebird 2016.2.1 v1\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Jalla\creativejam2017\Wwise - Freebird v2\Freebird 2016.2.1 v1\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/Marc-Antoine_Giguere/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/creativejam2017/Wwise - Freebird v2/Freebird 2016.2.1 v1/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Jalla\creativejam2017\Wwise - Freebird v2\Freebird 2016.2.1 v1\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -28,211 +28,211 @@
 			<IncludedMemoryFiles>
 				<File Id="63787320" Language="SFX">
 					<ShortName>Xylophone D.wav</ShortName>
-					<Path>SFX/Xylophone D_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone D_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="70853883" Language="SFX">
 					<ShortName>Saxophone baryton_bip_39 f2.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_39 f2_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_39 f2_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="79733276" Language="SFX">
 					<ShortName>Saxophone baryton_bip_12 b5.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_12 b5_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_12 b5_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="98532227" Language="SFX">
 					<ShortName>Saxophone baryton_bip_10 b3.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_10 b3_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_10 b3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="101974444" Language="SFX">
 					<ShortName>Saxophone baryton_bip_20 c3.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_20 c3_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_20 c3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="102020338" Language="SFX">
 					<ShortName>Saxophone baryton_bip_16 b9.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_16 b9_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_16 b9_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="128598227" Language="SFX">
 					<ShortName>Freebird bounce 1.wav</ShortName>
-					<Path>SFX/Freebird bounce 1_4B8CC0C5.wem</Path>
+					<Path>SFX\Freebird bounce 1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="176360983" Language="SFX">
 					<ShortName>Xylophone 2.wav</ShortName>
-					<Path>SFX/Xylophone 2_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone 2_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="187330731" Language="SFX">
 					<ShortName>Xylophone C.wav</ShortName>
-					<Path>SFX/Xylophone C_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone C_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="206473227" Language="SFX">
 					<ShortName>Saxophone baryton_bip_14 b7.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_14 b7_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_14 b7_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="253789071" Language="SFX">
 					<ShortName>Saxophone baryton_bip_43 f6.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_43 f6_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_43 f6_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="300461715" Language="SFX">
 					<ShortName>Xylophone 1.wav</ShortName>
-					<Path>SFX/Xylophone 1_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone 1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="308377464" Language="SFX">
 					<ShortName>Xylophone E.wav</ShortName>
-					<Path>SFX/Xylophone E_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone E_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="314734104" Language="SFX">
 					<ShortName>Saxophone baryton_bip_4 a4.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_4 a4_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_4 a4_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="333109982" Language="SFX">
 					<ShortName>Saxophone baryton_bip_7 a7.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_7 a7_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_7 a7_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="394573437" Language="SFX">
 					<ShortName>Xylophone 3.wav</ShortName>
-					<Path>SFX/Xylophone 3_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone 3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="419896836" Language="SFX">
 					<ShortName>Saxophone baryton_bip_8 b1.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_8 b1_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_8 b1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="424137348" Language="SFX">
 					<ShortName>Saxophone baryton_bip_30 d5.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_30 d5_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_30 d5_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="436946768" Language="SFX">
 					<ShortName>Saxophone baryton_bip_41 f4.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_41 f4_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_41 f4_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="442119454" Language="SFX">
 					<ShortName>Saxophone baryton_bip_27 d2.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_27 d2_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_27 d2_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="452243305" Language="SFX">
 					<ShortName>Saxophone baryton_bip_29 d4.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_29 d4_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_29 d4_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="459929406" Language="SFX">
 					<ShortName>Saxophone baryton_bip_15 b8.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_15 b8_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_15 b8_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="461881476" Language="SFX">
 					<ShortName>Xylophone A.wav</ShortName>
-					<Path>SFX/Xylophone A_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone A_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="462093355" Language="SFX">
 					<ShortName>Xylophone 6.wav</ShortName>
-					<Path>SFX/Xylophone 6_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone 6_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="482390508" Language="SFX">
 					<ShortName>Saxophone baryton_bip_31 d6.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_31 d6_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_31 d6_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="517933060" Language="SFX">
 					<ShortName>Xylophone 8.wav</ShortName>
-					<Path>SFX/Xylophone 8_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone 8_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="522388486" Language="SFX">
 					<ShortName>Saxophone baryton_bip_6 a6.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_6 a6_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_6 a6_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="531845496" Language="SFX">
 					<ShortName>Saxophone baryton_bip_19 c2.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_19 c2_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_19 c2_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="563614840" Language="SFX">
 					<ShortName>Saxophone baryton_bip_17 b10.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_17 b10_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_17 b10_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="589684609" Language="SFX">
 					<ShortName>Saxophone baryton_bip_28 d3.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_28 d3_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_28 d3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="598836651" Language="SFX">
 					<ShortName>Saxophone baryton_bip_9 b2.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_9 b2_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_9 b2_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="604310503" Language="SFX">
 					<ShortName>Saxophone baryton_bip_18 c1.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_18 c1_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_18 c1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="657277382" Language="SFX">
 					<ShortName>Saxophone baryton_bip_22 c5.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_22 c5_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_22 c5_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="659711698" Language="SFX">
 					<ShortName>Xylophone 7.wav</ShortName>
-					<Path>SFX/Xylophone 7_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone 7_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="759674467" Language="SFX">
 					<ShortName>Saxophone baryton_bip_38 f1.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_38 f1_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_38 f1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="783568652" Language="SFX">
 					<ShortName>Saxophone baryton_bip_21 c4.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_21 c4_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_21 c4_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="803533386" Language="SFX">
 					<ShortName>Saxophone baryton_bip_25 c8.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_25 c8_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_25 c8_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="827418714" Language="SFX">
 					<ShortName>Saxophone baryton_bip_42 f5.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_42 f5_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_42 f5_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="876302153" Language="SFX">
 					<ShortName>Saxophone baryton_bip_23 c6.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_23 c6_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_23 c6_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="879519361" Language="SFX">
 					<ShortName>Saxophone baryton_bip_26 d1.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_26 d1_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_26 d1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="879854156" Language="SFX">
 					<ShortName>Xylophone 4.wav</ShortName>
-					<Path>SFX/Xylophone 4_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone 4_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="910034856" Language="SFX">
 					<ShortName>Xylophone 5.wav</ShortName>
-					<Path>SFX/Xylophone 5_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone 5_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="913376396" Language="SFX">
 					<ShortName>Xylophone F.wav</ShortName>
-					<Path>SFX/Xylophone F_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone F_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="916400536" Language="SFX">
 					<ShortName>Saxophone baryton_bip_3 a3.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_3 a3_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_3 a3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="921707916" Language="SFX">
 					<ShortName>Saxophone baryton_bip_24 c7.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_24 c7_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_24 c7_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="938172946" Language="SFX">
 					<ShortName>Saxophone baryton_bip_13 b6.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_13 b6_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_13 b6_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="983077924" Language="SFX">
 					<ShortName>Saxophone baryton_bip_11 b4.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_11 b4_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_11 b4_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="991707243" Language="SFX">
 					<ShortName>Saxophone baryton_bip_40 f3.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_40 f3_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_40 f3_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1012625883" Language="SFX">
 					<ShortName>Saxophone baryton_bip_1 a2.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_1 a2_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_1 a2_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1027545061" Language="SFX">
 					<ShortName>Saxophone baryton_bip_5 a5.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip_5 a5_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip_5 a5_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1040046762" Language="SFX">
 					<ShortName>Saxophone baryton_bip a1.wav</ShortName>
-					<Path>SFX/Saxophone baryton_bip a1_4B8CC0C5.wem</Path>
+					<Path>SFX\Saxophone baryton_bip a1_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="1054237679" Language="SFX">
 					<ShortName>Xylophone B.wav</ShortName>
-					<Path>SFX/Xylophone B_4B8CC0C5.wem</Path>
+					<Path>SFX\Xylophone B_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
