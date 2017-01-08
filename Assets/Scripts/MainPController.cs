@@ -9,6 +9,8 @@ public class MainPController : MonoBehaviour {
 	private ClothesPin currentClothesPin;
 	private ClothesPin nextClothesPin;
 	private int lineIndex;
+	private float minimumX;
+	private float maximumX;
 
 	[SerializeField]
 	private LineController[] listOfLines;
@@ -27,23 +29,36 @@ public class MainPController : MonoBehaviour {
 		inputDevice = (InputManager.Devices.Count > playerNum) ? InputManager.Devices[playerNum] : null;
         currentClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));
         nextClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));
+		minimumX = this.transform.position.x;
+		maximumX = listOfLines [1].birdStopPosition;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		
+		Vector3 temp;
 
 		if (Time.timeScale > 0 && inputDevice != null) {
-			if (inputDevice.DPadUp.WasPressed || inputDevice.LeftStickY > 0) {
+			if (inputDevice.DPadUp.WasPressed) {
 				if (lineIndex != 0) {
 					lineIndex--;
-					this.transform.position = lineEdges [lineIndex].transform.position;
+					temp = this.transform.position;
+					temp.y = lineEdges [lineIndex].transform.position.y;
+					transform.position = temp;
 				}
-			} else if (inputDevice.DPadDown.WasPressed || inputDevice.LeftStickY < 0) {
+			} else if (inputDevice.DPadDown.WasPressed) {
 				if (lineIndex != 2) {
 					lineIndex++;
-					this.transform.position = lineEdges [lineIndex].transform.position;
-				}	
+					temp = this.transform.position;
+					temp.y = lineEdges [lineIndex].transform.position.y;
+					transform.position = temp;
+				}
 			}
+//			} else if (inputDevice.DPadLeft.WasPressed && this.transform.position.x >= minimumX) {
+//				this.transform.position += new Vector3 (-3f, 0f, 0f);
+//			} else if (inputDevice.DPadRight.WasPressed && this.transform.position.x < maximumX) {
+//				this.transform.position += new Vector3 (3f, 0f, 0f);
+//			}
 		}
 	}
 	//A puts pin
