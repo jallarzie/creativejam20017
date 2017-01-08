@@ -7,4 +7,8 @@ AnimatorOverrideController:
   m_PrefabInternal: {fileID: 0}
   m_Name: KingletOverride
   m_Controller: {fileID: 9100000, guid: 0199184e7c7bd214c841dc2b3cf88e4b, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e7c1a0d5aa90ba240aac5287bbe4ed7d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e7c1a0d5aa90ba240aac5287bbe4ed7d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8d94153414104fe4b873a99c72870eee, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4359aad658243ae4d905e372de464ff7, type: 2}
