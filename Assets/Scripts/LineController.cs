@@ -27,7 +27,7 @@ public class LineController : MonoBehaviour {
     private SecondaryPController player;
 
     [SerializeField]
-    private AudioSource sequenceSoundSource;
+    private AudioSource[] sequenceSoundSources;
 
     [SerializeField]
     private AudioSource extraSoundSource;
@@ -39,7 +39,7 @@ public class LineController : MonoBehaviour {
     private TextAsset sequence;
 
     private int soundIndex = 0;
-
+    private int sourceIndex = 0;
     private int sequenceIndex = 0;
 
     private float _timeToNextPin = 0f;
@@ -121,7 +121,8 @@ public class LineController : MonoBehaviour {
             if (comingPins.Peek().transform.position.x <= jumpPoint.position.x)
             {
                 goingPins.Enqueue(comingPins.Dequeue());
-                sequenceSoundSource.PlayOneShot(soundClips[soundIndex++]);
+                sequenceSoundSources[sourceIndex].PlayOneShot(soundClips[soundIndex++]);
+                sourceIndex = (sourceIndex + 1) % sequenceSoundSources.Length;
                 player.Stumble();
             }
         }
