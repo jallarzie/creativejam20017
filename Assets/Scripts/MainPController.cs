@@ -12,7 +12,18 @@ public class MainPController : MonoBehaviour {
 	private float minimumX;
 	private float maximumX;
 
-	[SerializeField]
+    [SerializeField]
+    private Transform currentPinPoint;
+    [SerializeField]
+    private Transform nextPinPoint;
+    [SerializeField]
+    private GameObject pinPrefab;
+    [SerializeField]
+    private float pinCooldown;
+
+    private float currentCooldown;
+
+    [SerializeField]
 	private LineController[] listOfLines;
 
 	[SerializeField]
@@ -27,9 +38,16 @@ public class MainPController : MonoBehaviour {
 		this.transform.position = lineEdges [lineIndex].transform.position;
 		animator = GetComponent<Animator> ();
 		inputDevice = (InputManager.Devices.Count > playerNum) ? InputManager.Devices[playerNum] : null;
+
+        currentClothesPin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
         currentClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));
+        currentClothesPin.transform.SetParent(currentPinPoint, false);
+
+        nextClothesPin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
         nextClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));
-		minimumX = this.transform.position.x;
+        nextClothesPin.transform.SetParent(nextPinPoint, false);
+
+        minimumX = this.transform.position.x;
 		maximumX = listOfLines [1].birdStopPosition;
 	}
 	
@@ -38,8 +56,39 @@ public class MainPController : MonoBehaviour {
 		
 		Vector3 temp;
 
-		if (Time.timeScale > 0 && inputDevice != null) {
-			if (inputDevice.DPadUp.WasPressed) {
+        if (Time.timeScale > 0 && inputDevice != null) {
+            if (currentClothesPin != null)
+            {
+                if (inputDevice.Action1.WasPressed)
+                {
+                    listOfLines[lineIndex].PlacePin(currentClothesPin);
+                    currentClothesPin = null;
+                    currentCooldown = pinCooldown;
+                }
+                else if (inputDevice.Action2.WasPressed)
+                {
+                    currentClothesPin.transform.SetParent(nextPinPoint, false);
+                    nextClothesPin.transform.SetParent(currentPinPoint, false);
+                    ClothesPin tempPin = nextClothesPin;
+                    nextClothesPin = currentClothesPin;
+                    currentClothesPin = tempPin;
+                }
+            }
+            else
+            {
+                currentCooldown -= Time.deltaTime;
+
+                if (currentCooldown <= 0f)
+                {
+                    nextClothesPin.transform.SetParent(currentPinPoint, false);
+                    currentClothesPin = nextClothesPin;
+
+                    nextClothesPin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
+                    nextClothesPin.clothesColor = (ClothesPinColor)(Random.Range(0, 4));
+                    nextClothesPin.transform.SetParent(nextPinPoint, false);
+                }
+            }
+            if (inputDevice.DPadUp.WasPressed) {
 				if (lineIndex != 0) {
 					lineIndex--;
 					temp = this.transform.position;

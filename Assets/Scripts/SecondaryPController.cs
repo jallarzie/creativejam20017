@@ -16,6 +16,11 @@ public class SecondaryPController : MonoBehaviour {
 
     private float balance = 1.0f;
 
+    public bool isAlive
+    {
+        get { return balance > 0f; }
+    }
+
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
@@ -24,64 +29,68 @@ public class SecondaryPController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-        if (this.transform.position.x < line.birdStopPosition)
+        if (isAlive)
         {
-            this.transform.localPosition += new Vector3(speed * Time.deltaTime, 0f, 0f);
+            if (this.transform.position.x < line.birdStopPosition)
+            {
+                this.transform.localPosition += new Vector3(speed * Time.deltaTime, 0f, 0f);
+            }
+            else
+            {
+                if (Time.timeScale > 0 && inputDevice != null)
+                {
+                    if (inputDevice.Action1.WasPressed)
+                    {
+                        if (line.JumpPin(ClothesPinColor.Green))
+                        {
+                            Jump();
+                        }
+                        else
+                        {
+                            Stumble();
+                        }
+                    }
+                    else if (inputDevice.Action2.WasPressed)
+                    {
+                        if (line.JumpPin(ClothesPinColor.Red))
+                        {
+                            Jump();
+                        }
+                        else
+                        {
+                            Stumble();
+                        }
+                    }
+                    else if (inputDevice.Action3.WasPressed)
+                    {
+                        if (line.JumpPin(ClothesPinColor.Blue))
+                        {
+                            Jump();
+                        }
+                        else
+                        {
+                            Stumble();
+                        }
+                    }
+                    else if (inputDevice.Action4.WasPressed)
+                    {
+                        if (line.JumpPin(ClothesPinColor.Yellow))
+                        {
+                            Jump();
+                        }
+                        else
+                        {
+                            Stumble();
+                        }
+                    }
+                }
+            }
         }
         else
         {
-            if (!line.spinning)
+            if (transform.localPosition.y > -100f)
             {
-                line.StartSpinning();
-            }
-
-			if (Time.timeScale > 0 && inputDevice != null)
-            {
-                if (inputDevice.Action1.WasPressed)
-                {
-                    if (line.JumpPin(ClothesPinColor.Green))
-                    {
-                        Jump();
-                    }
-                    else
-                    {
-                        Stumble();
-                    }
-                }
-                else if (inputDevice.Action2.WasPressed)
-                {
-                    if (line.JumpPin(ClothesPinColor.Red))
-                    {
-                        Jump();
-                    }
-                    else
-                    {
-                        Stumble();
-                    }
-                }
-                else if (inputDevice.Action3.WasPressed)
-                {
-                    if (line.JumpPin(ClothesPinColor.Blue))
-                    {
-                        Jump();
-                    }
-                    else
-                    {
-                        Stumble();
-                    }
-                }
-                else if (inputDevice.Action4.WasPressed)
-                {
-                    if (line.JumpPin(ClothesPinColor.Yellow))
-                    {
-                        Jump();
-                    }
-                    else
-                    {
-                        Stumble();
-                    }
-                }
+                transform.localPosition += new Vector3(0f, 30f * -speed * Time.deltaTime, 0f);
             }
         }
 	}
@@ -90,12 +99,12 @@ public class SecondaryPController : MonoBehaviour {
     {
         animator.SetTrigger("jumping");
         balance = Mathf.Min(1.0f, balance + 0.1f);
-        //animator.SetFloat("balance", balance);
+        animator.SetFloat("balance", balance);
     }
 
     public void Stumble()
     {
         balance = Mathf.Max(0.0f, balance - 0.1f);
-       //animator.SetFloat("balance", balance);
+        animator.SetFloat("balance", balance);
     }
 }

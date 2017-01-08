@@ -531,7 +531,7 @@ MonoBehaviour:
   pinPrefab: {fileID: 1000012937083200, guid: 8639cd8fd455a6c43a510f7376eee5c6, type: 2}
   pinSpeed: 35
   bpm: 120
-  jumpLeeway: 0.5
+  jumpLeeway: 5
   startPoint: {fileID: 4000013366172180}
   jumpPoint: {fileID: 4000010894931792}
   endPoint: {fileID: 4000010979130538}

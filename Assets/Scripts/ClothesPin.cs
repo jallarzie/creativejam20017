@@ -36,4 +36,6 @@ public class ClothesPin : MonoBehaviour {
         }
     }
 
+    public bool placed { get; set; }
+
 }
