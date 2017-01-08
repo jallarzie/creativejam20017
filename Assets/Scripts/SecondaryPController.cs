@@ -6,7 +6,6 @@ public class SecondaryPController : MonoBehaviour {
 
 	private Animator animator;
     private InputDevice inputDevice;
-	private TriggerCreeper successTrigger;
 
 	[SerializeField]
 	private int playerNum;
@@ -20,7 +19,6 @@ public class SecondaryPController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
-        successTrigger = GetComponent<TriggerCreeper>();
 		inputDevice = (InputManager.Devices.Count > playerNum) ? InputManager.Devices[playerNum] : null;
 	}
 	
@@ -91,7 +89,6 @@ public class SecondaryPController : MonoBehaviour {
     private void Jump()
     {
         animator.SetTrigger("jumping");
-        successTrigger.Trigger();
         balance = Mathf.Min(1.0f, balance + 0.1f);
         animator.SetFloat("balance", balance);
     }
