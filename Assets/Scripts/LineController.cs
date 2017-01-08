@@ -61,8 +61,7 @@ public class LineController : MonoBehaviour {
 
     public void StartSpinning()
     {
-        spinning = true;
-        _timeToNextPin = 15f / bpm;
+        spinning = true;        
     }
 
     public void StopSpinning()
@@ -99,37 +98,37 @@ public class LineController : MonoBehaviour {
 
     public void Update()
     {
-        if (spinning)
+        foreach (ClothesPin pin in goingPins)
         {
-            foreach (ClothesPin pin in goingPins)
-            {
-                pin.transform.localPosition += Vector3.left * pinSpeed * Time.deltaTime;
-            }
+            pin.transform.localPosition += Vector3.left * pinSpeed * Time.deltaTime;
+        }
 
-            if (goingPins.Count > 0)
+        if (goingPins.Count > 0)
+        {
+            if (goingPins.Peek().transform.position.x < endPoint.position.x)
             {
-                if (goingPins.Peek().transform.position.x < endPoint.position.x)
-                {
-                    Destroy(goingPins.Dequeue().gameObject);
-                }
+                Destroy(goingPins.Dequeue().gameObject);
             }
+        }
 
-            foreach (ClothesPin pin in comingPins)
+        foreach (ClothesPin pin in comingPins)
+        {
+            pin.transform.localPosition += Vector3.left * pinSpeed * Time.deltaTime;
+        }
+
+        if (comingPins.Count > 0)
+        {
+            if (comingPins.Peek().transform.position.x <= jumpPoint.position.x)
             {
-                pin.transform.localPosition += Vector3.left * pinSpeed * Time.deltaTime;
+                goingPins.Enqueue(comingPins.Dequeue());
+                sequenceSoundSource.PlayOneShot(soundClips[soundIndex++]);
+                player.Stumble();
             }
+        }
 
-            if (comingPins.Count > 0)
-            {
-                if (comingPins.Peek().transform.position.x < (jumpPoint.position.x - jumpLeeway))
-                {
-                    goingPins.Enqueue(comingPins.Dequeue());
-                    sequenceSoundSource.PlayOneShot(soundClips[soundIndex++]);
-                    player.Stumble();
-                }
-            }
-
-            if ((_timeToNextPin -= Time.deltaTime) <= 0f)
+        if ((_timeToNextPin -= Time.deltaTime) <= 0f)
+        {
+            if (sequenceIndex < sequence.text.Length)
             {
                 char nextPin = sequence.text[sequenceIndex++];
 
@@ -154,9 +153,9 @@ public class LineController : MonoBehaviour {
                     pin.transform.position = startPoint.position;
                     comingPins.Enqueue(pin);
                 }
-
-                _timeToNextPin = 15f / bpm;
             }
+
+            _timeToNextPin = 15f / bpm;
         }
     }
 }
