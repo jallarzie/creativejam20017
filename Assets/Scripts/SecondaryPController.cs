@@ -26,39 +26,66 @@ public class SecondaryPController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
-		this.transform.localPosition += new Vector3 (speed*Time.deltaTime, 0f, 0f);
 
-		if (inputDevice != null) {
-            if (inputDevice.Action1.WasPressed) {
-                if (line.JumpPin(ClothesPinColor.Green))
-                {
-                    animator.SetTrigger("jumping");
-                    successTrigger.Trigger();
-                }
-            } else if (inputDevice.Action2.WasPressed) {
-                if (line.JumpPin(ClothesPinColor.Red))
-                {
-                    animator.SetTrigger("jumping");
-                    successTrigger.Trigger();
-                }
-            } else if (inputDevice.Action3.WasPressed) {
-                if (line.JumpPin(ClothesPinColor.Blue))
-                {
-                    animator.SetTrigger("jumping");
-                    successTrigger.Trigger();
-                }
-            } else if (inputDevice.Action4.WasPressed) {
-                if (line.JumpPin(ClothesPinColor.Yellow))
-                {
-                }
-			}
-		
-			//Crosscheck with pin color
-			//Line Controller has the pin list
-			//Crosscheck color with LineController (each player will have assignated lines)
+        if (this.transform.position.x < line.birdStopPosition)
+        {
+            this.transform.localPosition += new Vector3(speed * Time.deltaTime, 0f, 0f);
+        }
+        else
+        {
+            if (!line.spinning)
+            {
+                line.StartSpinning();
+            }
 
-		}
+            if (inputDevice != null)
+            {
+                if (inputDevice.Action1.WasPressed)
+                {
+                    if (line.JumpPin(ClothesPinColor.Green))
+                    {
+                        Jump();
+                    }
+                    else
+                    {
+                        Stumble();
+                    }
+                }
+                else if (inputDevice.Action2.WasPressed)
+                {
+                    if (line.JumpPin(ClothesPinColor.Red))
+                    {
+                        Jump();
+                    }
+                    else
+                    {
+                        Stumble();
+                    }
+                }
+                else if (inputDevice.Action3.WasPressed)
+                {
+                    if (line.JumpPin(ClothesPinColor.Blue))
+                    {
+                        Jump();
+                    }
+                    else
+                    {
+                        Stumble();
+                    }
+                }
+                else if (inputDevice.Action4.WasPressed)
+                {
+                    if (line.JumpPin(ClothesPinColor.Yellow))
+                    {
+                        Jump();
+                    }
+                    else
+                    {
+                        Stumble();
+                    }
+                }
+            }
+        }
 	}
 
     private void Jump()
@@ -69,7 +96,7 @@ public class SecondaryPController : MonoBehaviour {
         animator.SetFloat("balance", balance);
     }
 
-    private void Stumble()
+    public void Stumble()
     {
         balance = Mathf.Max(0.0f, balance - 0.5f);
         animator.SetFloat("balance", balance);

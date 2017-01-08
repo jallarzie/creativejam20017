@@ -26,8 +26,12 @@ public class LineController : MonoBehaviour {
     [SerializeField]
     private Transform endPoint;
 
+
+    [SerializeField]
+    private SecondaryPController player;
+
     private float _timeToNextPin = 0f;
-    private bool _spinning = false;
+    public bool spinning { get; private set; }
 
     private Queue<ClothesPin> comingPins = new Queue<ClothesPin>();
 
@@ -35,18 +39,23 @@ public class LineController : MonoBehaviour {
 
     public ClothesPin currentPin 
     {
-        get { return comingPins.Peek(); }   
+        get { return comingPins.Count > 0 ? comingPins.Peek() : null; }   
+    }
+
+    public float birdStopPosition
+    {
+        get { return jumpPoint.position.x; }
     }
 
     public void StartSpinning()
     {
-        _spinning = true;
+        spinning = true;
         _timeToNextPin = Random.Range(minTimeBetweenPins, maxTimeBetweenPins);
     }
 
     public void StopSpinning()
     {
-        _spinning = false;
+        spinning = false;
     }
 
     public void PlacePin(ClothesPin pin)
@@ -78,21 +87,14 @@ public class LineController : MonoBehaviour {
 
     public void Update()
     {
-        if (_spinning)
+        if (spinning)
         {
-            if ((_timeToNextPin -= Time.deltaTime) <= 0f)
-            {
-                GameObject pin = Instantiate(pinPrefab);
-                pin.GetComponent<ClothesPin>().clothesColor = (ClothesPinColor)Random.Range(0, 4);
-                pin.transform.position = startPoint.position;
-            }
-
             foreach (ClothesPin pin in goingPins)
             {
                 pin.transform.localPosition += Vector3.left * pinSpeed * Time.deltaTime;
             }
 
-            if (goingPins.Peek() != null)
+            if (goingPins.Count > 0)
             {
                 if (goingPins.Peek().transform.position.x < endPoint.position.x)
                 {
@@ -105,12 +107,23 @@ public class LineController : MonoBehaviour {
                 pin.transform.localPosition += Vector3.left * pinSpeed * Time.deltaTime;
             }
 
-            if (comingPins.Peek() != null)
+            if (comingPins.Count > 0)
             {
                 if (comingPins.Peek().transform.position.x < (jumpPoint.position.x - jumpLeeway))
                 {
                     goingPins.Enqueue(comingPins.Dequeue());
+                    player.Stumble();
                 }
+            }
+
+            if ((_timeToNextPin -= Time.deltaTime) <= 0f)
+            {
+                ClothesPin pin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
+                pin.clothesColor = (ClothesPinColor)Random.Range(0, 4);
+                pin.transform.position = startPoint.position;
+                comingPins.Enqueue(pin);
+
+                _timeToNextPin = Random.Range(minTimeBetweenPins, maxTimeBetweenPins);
             }
         }
     }
