@@ -16,6 +16,11 @@ namespace AK
         static const AkUniqueID PLAY_BACKINGTRACK = 3055447710U;
         static const AkUniqueID PLAY_XYLOBANK1 = 4144819343U;
         static const AkUniqueID PLAY_XYLOBANK2 = 4144819340U;
+        static const AkUniqueID SAXBARY_PHRASE1 = 2103422374U;
+        static const AkUniqueID SAXBARY_PHRASE2 = 2103422373U;
+        static const AkUniqueID SAXBARY_PHRASE3 = 2103422372U;
+        static const AkUniqueID SAXBARY_PHRASE4 = 2103422371U;
+        static const AkUniqueID SAXBARY_PHRASE5 = 2103422370U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
