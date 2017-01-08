@@ -6,7 +6,7 @@ using InControl;
 public class PauseMenu : MonoBehaviour {
 
 	[SerializeField]
-	private GameObject pauseText;
+	private GameObject canvasPause;
 
 	private bool isPaused;
 
@@ -22,13 +22,23 @@ public class PauseMenu : MonoBehaviour {
 			{
 				if (!isPaused) {
 					Time.timeScale = 0;
-					pauseText.SetActive (true);
+					canvasPause.SetActive (true);
+					canvasPause.GetComponent<GameObject> ().SetActive (true);
 					isPaused = true;
 				} else if (isPaused) {
 					Time.timeScale = 1;
-					pauseText.SetActive (false);
+					canvasPause.SetActive (false);
+					canvasPause.GetComponent<GameObject> ().SetActive (false);
 					isPaused = false;
 				}
+			}
+			if (canvasPause.activeSelf) {
+				if (InputManager.ActiveDevice.DPadLeft.WasPressed) {
+					//cursor should be on quit
+				} else if (InputManager.ActiveDevice.DPadRight.WasPressed){
+					//cursor should be on resume
+				}
+			
 			}
 		}
 	}
