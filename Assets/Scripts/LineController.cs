@@ -11,10 +11,7 @@ public class LineController : MonoBehaviour {
     private float pinSpeed;
 
     [SerializeField]
-    private float minTimeBetweenPins;
-
-    [SerializeField]
-    private float maxTimeBetweenPins;
+    private float bpm;
 
     [SerializeField] 
     private float jumpLeeway;
@@ -25,10 +22,14 @@ public class LineController : MonoBehaviour {
     private Transform jumpPoint;
     [SerializeField]
     private Transform endPoint;
-
-
+    
     [SerializeField]
     private SecondaryPController player;
+
+    [SerializeField]
+    private AudioClip[] soundClips;
+
+    private int soundIndex;
 
     private float _timeToNextPin = 0f;
     public bool spinning { get; private set; }
@@ -50,7 +51,7 @@ public class LineController : MonoBehaviour {
     public void StartSpinning()
     {
         spinning = true;
-        _timeToNextPin = Random.Range(minTimeBetweenPins, maxTimeBetweenPins);
+        _timeToNextPin = 15f / bpm;
     }
 
     public void StopSpinning()
@@ -123,7 +124,7 @@ public class LineController : MonoBehaviour {
                 pin.transform.position = startPoint.position;
                 comingPins.Enqueue(pin);
 
-                _timeToNextPin = Random.Range(minTimeBetweenPins, maxTimeBetweenPins);
+                _timeToNextPin = 15f / bpm;
             }
         }
     }
