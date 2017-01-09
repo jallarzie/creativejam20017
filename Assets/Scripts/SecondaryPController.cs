@@ -5,7 +5,7 @@ using InControl;
 public class SecondaryPController : MonoBehaviour {
 
 	private Animator animator;
-    private InputDevice inputDevice;
+    public InputDevice inputDevice;
 
 	[SerializeField]
 	private int playerNum;
@@ -24,7 +24,6 @@ public class SecondaryPController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
-		inputDevice = (InputManager.Devices.Count > playerNum) ? InputManager.Devices[playerNum] : null;
 	}
 	
 	// Update is called once per frame
@@ -41,46 +40,34 @@ public class SecondaryPController : MonoBehaviour {
                 {
                     if (inputDevice.Action1.WasPressed)
                     {
+                        animator.SetTrigger("jumping");
                         if (line.JumpPin(ClothesPinColor.Green))
                         {
                             Jump();
                         }
-                        else
-                        {
-                            Stumble();
-                        }
                     }
                     else if (inputDevice.Action2.WasPressed)
                     {
+                        animator.SetTrigger("jumping");
                         if (line.JumpPin(ClothesPinColor.Red))
                         {
                             Jump();
                         }
-                        else
-                        {
-                            Stumble();
-                        }
                     }
                     else if (inputDevice.Action3.WasPressed)
                     {
+                        animator.SetTrigger("jumping");
                         if (line.JumpPin(ClothesPinColor.Blue))
                         {
                             Jump();
                         }
-                        else
-                        {
-                            Stumble();
-                        }
                     }
                     else if (inputDevice.Action4.WasPressed)
                     {
+                        animator.SetTrigger("jumping");
                         if (line.JumpPin(ClothesPinColor.Yellow))
                         {
                             Jump();
-                        }
-                        else
-                        {
-                            Stumble();
                         }
                     }
                 }
@@ -97,7 +84,6 @@ public class SecondaryPController : MonoBehaviour {
 
     private void Jump()
     {
-        animator.SetTrigger("jumping");
         balance = Mathf.Min(1.0f, balance + 0.1f);
         animator.SetFloat("balance", balance);
     }

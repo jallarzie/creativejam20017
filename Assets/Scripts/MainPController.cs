@@ -5,7 +5,7 @@ using InControl;
 public class MainPController : MonoBehaviour {
 
 	private Animator animator;
-	private InputDevice inputDevice;
+	public InputDevice inputDevice;
 	private ClothesPin currentClothesPin;
 	private ClothesPin nextClothesPin;
 	private int lineIndex;
@@ -37,7 +37,6 @@ public class MainPController : MonoBehaviour {
 		lineIndex = 1;
 		this.transform.position = lineEdges [lineIndex].transform.position;
 		animator = GetComponent<Animator> ();
-		inputDevice = (InputManager.Devices.Count > playerNum) ? InputManager.Devices[playerNum] : null;
 
         currentClothesPin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
         currentClothesPin.clothesColor = (ClothesPinColor)(Random.Range (0, 4));

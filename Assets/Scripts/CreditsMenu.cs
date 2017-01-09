@@ -9,10 +9,18 @@ public class CreditsMenu : MonoBehaviour {
 	public GameObject canvasToDeactivate;
 	[SerializeField]
 	public GameObject canvasToActivate;
+    [SerializeField]
+    public GameObject[] endings;
 
 	public void LoadScene(string loadedScene){
 		SceneManager.LoadScene (loadedScene, LoadSceneMode.Single);
 	}
+
+    void Start()
+    {
+        int livingBirds = PlayerPrefs.GetInt("livingBirds", 0);
+        endings[livingBirds].SetActive(true);
+    }
 
 	// Update is called once per frame
 	void Update () {

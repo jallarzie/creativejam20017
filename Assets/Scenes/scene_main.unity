@@ -196,6 +196,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 1134255955}
+    - target: {fileID: 114000011023206286, guid: 67dc20413c3232d4bb2811c8a42edd3b,
+        type: 2}
+      propertyPath: jumpLeeway
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 67dc20413c3232d4bb2811c8a42edd3b, type: 2}
   m_IsPrefabParent: 0
@@ -436,6 +441,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 1151147452}
+    - target: {fileID: 114000013689255170, guid: b556463ffb4987e4687ebdda4c361370,
+        type: 2}
+      propertyPath: jumpLeeway
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b556463ffb4987e4687ebdda4c361370, type: 2}
   m_IsPrefabParent: 0
@@ -590,6 +600,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 1658054985}
+    - target: {fileID: 114000014248618932, guid: 49a4dcfc3b34a8c4ea66d9ee6714bc66,
+        type: 2}
+      propertyPath: jumpLeeway
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49a4dcfc3b34a8c4ea66d9ee6714bc66, type: 2}
   m_IsPrefabParent: 0
@@ -794,6 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4a74819c2235f448a5b5011699170a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainPlayer: {fileID: 1032050836}
   players:
   - {fileID: 1658054985}
   - {fileID: 1134255955}
@@ -846,7 +862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNum: 3
   speed: 3
-  line: {fileID: 152955873}
+  line: {fileID: 905126686}
 --- !u!95 &1134255956
 Animator:
   serializedVersion: 3
@@ -1004,7 +1020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNum: 2
   speed: 3
-  line: {fileID: 905126686}
+  line: {fileID: 152955873}
 --- !u!1 &1165307135
 GameObject:
   m_ObjectHideFlags: 0
