@@ -27,19 +27,14 @@ public class LineController : MonoBehaviour {
     private SecondaryPController player;
 
     [SerializeField]
-    private AudioSource[] sequenceSoundSources;
+    private AudioSource sequenceSoundSource;
 
     [SerializeField]
     private AudioSource extraSoundSource;
 
     [SerializeField]
-    private AudioClip[] soundClips;
-
-    [SerializeField]
     private TextAsset sequence;
-
-    private int soundIndex = 0;
-    private int sourceIndex = 0;
+    
     private int sequenceIndex = 0;
 
     private float _timeToNextPin = 0f;
@@ -85,8 +80,7 @@ public class LineController : MonoBehaviour {
 
                 if (!pin.placed)
                 {
-                    sequenceSoundSources[sourceIndex].PlayOneShot(soundClips[soundIndex++]);
-                    sourceIndex = (sourceIndex + 1) % sequenceSoundSources.Length;
+                    sequenceSoundSource.mute = false;
                 }
 
                 return true;
