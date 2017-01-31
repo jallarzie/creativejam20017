@@ -13,6 +13,18 @@ public class TitleMenu : MonoBehaviour {
 	private GameObject instructions;
 	[SerializeField]
 	private GameObject title;
+	[SerializeField]
+	private GameObject selection;
+	[SerializeField]
+	private GameObject[] P1Selection;
+	[SerializeField]
+	private GameObject[] P2Selection;
+	[SerializeField]
+	private GameObject[] P3Selection;
+	[SerializeField]
+	private GameObject[] P4Selection;
+	[SerializeField]
+	private GameObject[] cursors;
 
 	public void LoadScene(string loadedScene){
 		SceneManager.LoadScene (loadedScene, LoadSceneMode.Single);
@@ -24,6 +36,10 @@ public class TitleMenu : MonoBehaviour {
 		title.SetActive (false);
 		instructions.SetActive (true);
 	}
+
+	public void selectionScreen(){
+		
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -32,9 +48,13 @@ public class TitleMenu : MonoBehaviour {
 				Application.Quit ();
 			}
 			if (InputManager.ActiveDevice.AnyButton.WasPressed) {
-				Debug.Log ("button was pressed");
 				if (instructions.activeSelf) {
-					LoadScene ("scene_main");
+					instructions.SetActive (false);
+					instructions.gameObject.SetActive (false);
+					selection.SetActive (true);
+					selection.gameObject.SetActive (true);
+				} else if (selection.activeSelf) {
+					selectionScreen ();
 				} else {
 					showInstructions ();			
 				}
