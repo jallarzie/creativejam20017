@@ -90,7 +90,13 @@ public class LineController : MonoBehaviour {
         return false;
     }
 
-    public void Update()
+    private void Start()
+    {
+        _timeToNextPin = 0f;
+        SpawnPin();
+    }
+
+    private void Update()
     {
         foreach (ClothesPin pin in goingPins)
         {
@@ -115,47 +121,54 @@ public class LineController : MonoBehaviour {
             if (comingPins.Peek().transform.position.x < (jumpPoint.position.x - jumpLeeway))
             {
                 goingPins.Enqueue(comingPins.Dequeue());
-                player.Stumble();
+                //player.Stumble();
             }
         }
 
-        if ((_timeToNextPin -= Time.deltaTime) <= 0f)
+        _timeToNextPin -= Time.deltaTime;
+
+        if (_timeToNextPin <= 0f)
         {
-            if (sequenceIndex < sequence.text.Length)
-            {
-                char nextPin = sequence.text[sequenceIndex++];
+            SpawnPin();
+        }
+    }
 
-                if (nextPin != 'x' && nextPin != 'X')
+    private void SpawnPin()
+    {
+        if (sequenceIndex < sequence.text.Length)
+        {
+            char nextPin = sequence.text[sequenceIndex++];
+
+            if (nextPin != 'x' && nextPin != 'X')
+            {
+                ClothesPin pin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
+                switch (nextPin)
                 {
-                    ClothesPin pin = Instantiate(pinPrefab).GetComponent<ClothesPin>();
-                    switch (nextPin)
-                    {
-                        case 'G':
-                            pin.clothesColor = ClothesPinColor.Green;
-                            break;
-                        case 'B':
-                            pin.clothesColor = ClothesPinColor.Blue;
-                            break;
-                        case 'R':
-                            pin.clothesColor = ClothesPinColor.Red;
-                            break;
-                        case 'Y':
-                            pin.clothesColor = ClothesPinColor.Yellow;
-                            break;
-                    }
-                    pin.transform.position = startPoint.position;
-                    comingPins.Enqueue(pin);
+                    case 'G':
+                        pin.clothesColor = ClothesPinColor.Green;
+                        break;
+                    case 'B':
+                        pin.clothesColor = ClothesPinColor.Blue;
+                        break;
+                    case 'R':
+                        pin.clothesColor = ClothesPinColor.Red;
+                        break;
+                    case 'Y':
+                        pin.clothesColor = ClothesPinColor.Yellow;
+                        break;
                 }
-                else
+                pin.transform.position = startPoint.position;
+                comingPins.Enqueue(pin);
+            }
+            else
+            {
+                if (placedPins.Count > 0)
                 {
-                    if (placedPins.Count > 0)
-                    {
-                        comingPins.Enqueue(placedPins.Dequeue());
-                    }
+                    comingPins.Enqueue(placedPins.Dequeue());
                 }
             }
-
-            _timeToNextPin = 15f / bpm;
         }
+
+        _timeToNextPin = 15f / bpm + _timeToNextPin;
     }
 }
