@@ -62,7 +62,8 @@ public class PauseMenu : MonoBehaviour {
 					canvasPause.SetActive (false);
 					canvasPause.gameObject.SetActive (false);
 					isPaused = false;
-				} else if (!isResume && InputManager.ActiveDevice.Action1.WasPressed) {
+                    AudioListener.pause = false;
+                } else if (!isResume && InputManager.ActiveDevice.Action1.WasPressed) {
 					Application.Quit ();
 				}
 			}
