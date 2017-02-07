@@ -23,7 +23,9 @@ public class PauseMenu : MonoBehaviour {
 		isPaused = false;
 		isResume = true;
 		menuMovement = GetComponent<AudioSource> ();
-	}
+        menuMovement.ignoreListenerPause = true;
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -34,14 +36,17 @@ public class PauseMenu : MonoBehaviour {
 					Time.timeScale = 0;
 					canvasPause.SetActive (true);
 					canvasPause.gameObject.SetActive (true);
+                    AudioListener.pause = true;
 					isPaused = true;
 				} else if (isPaused) {
 					Time.timeScale = 1;
 					canvasPause.SetActive (false);
 					canvasPause.gameObject.SetActive (false);
-					isPaused = false;
+                    AudioListener.pause = false;
+                    isPaused = false;
 				}
-			}
+
+            }
 			if (canvasPause.activeSelf) {
 				if (InputManager.ActiveDevice.DPadRight.WasPressed) {
 					cursor.transform.position = cursorPointQuit.position;
