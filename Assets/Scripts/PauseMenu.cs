@@ -49,12 +49,16 @@ public class PauseMenu : MonoBehaviour {
             }
 			if (canvasPause.activeSelf) {
 				if (InputManager.ActiveDevice.DPadRight.WasPressed) {
+					if (cursor.transform.position != cursorPointQuit.position){
+						menuMovement.Play();
+					}
 					cursor.transform.position = cursorPointQuit.position;
-					menuMovement.Play();
 					isResume = false;
 				} else if (InputManager.ActiveDevice.DPadLeft.WasPressed){
+					if (cursor.transform.position != cursorPointResume.position){
+						menuMovement.Play();
+					}
 					cursor.transform.position = cursorPointResume.position;
-					menuMovement.Play();
 					isResume = true;
 				}
 				if (isResume && InputManager.ActiveDevice.Action1.WasPressed) {
