@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using System.Collections.Generic;
 using InControl;
 
 public class TitleMenu : MonoBehaviour {
@@ -26,21 +27,16 @@ public class TitleMenu : MonoBehaviour {
 	[SerializeField]
 	private GameObject[] cursors;
 
-	private GameObject[,] pSelection;
+	private List<GameObject[]> pSelection;
 	private int count;
 
 	public void Start(){
-		FillArray (pSelection, 0, p1Selection);
-		FillArray (pSelection, 1, p2Selection);
-		FillArray (pSelection, 2, p3Selection);
-		FillArray (pSelection, 3, p4Selection);
-		count = 0;
-	}
-
-	public void FillArray(GameObject[,] dPlayerSelection, int playerNum, GameObject[] playerSelection){
-		for (int i = 0; i < playerSelection.Length; i++) {
-			dPlayerSelection [playerNum, i] = playerSelection [i];
-		}
+        pSelection = new List<GameObject[]>();
+		pSelection.Add(p1Selection);
+        pSelection.Add(p2Selection);
+        pSelection.Add(p3Selection);
+        pSelection.Add(p4Selection);
+        count = 0;
 	}
 
 	public void LoadScene(string loadedScene){
@@ -56,7 +52,6 @@ public class TitleMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 		if (InputManager.ActiveDevice != null) {
 			if (InputManager.ActiveDevice.GetControl (InputControlType.Start)) {
 				Application.Quit ();
@@ -69,13 +64,13 @@ public class TitleMenu : MonoBehaviour {
 					selectionScreen.gameObject.SetActive (true);
 				} else if (selectionScreen.activeSelf) {
 					if (InputManager.ActiveDevice.AnyButton.WasPressed) {
-						if (count <= 5) {
-							cursors [0].transform.position = pSelection [0, count].transform.position;
+						if (count < 4) {
+							cursors [0].transform.position = pSelection [0][count].transform.position;
 							count++;
 						}
 					}
 				} else {
-					showInstructions ();			
+					showInstructions ();
 				}
 			}
 		}
