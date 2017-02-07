@@ -14,17 +14,34 @@ public class TitleMenu : MonoBehaviour {
 	[SerializeField]
 	private GameObject title;
 	[SerializeField]
-	private GameObject selection;
+	private GameObject selectionScreen;
 	[SerializeField]
-	private GameObject[] P1Selection;
+	private GameObject[] p1Selection;
 	[SerializeField]
-	private GameObject[] P2Selection;
+	private GameObject[] p2Selection;
 	[SerializeField]
-	private GameObject[] P3Selection;
+	private GameObject[] p3Selection;
 	[SerializeField]
-	private GameObject[] P4Selection;
+	private GameObject[] p4Selection;
 	[SerializeField]
 	private GameObject[] cursors;
+
+	private GameObject[,] pSelection;
+	private int count;
+
+	public void Start(){
+		FillArray (pSelection, 0, p1Selection);
+		FillArray (pSelection, 1, p2Selection);
+		FillArray (pSelection, 2, p3Selection);
+		FillArray (pSelection, 3, p4Selection);
+		count = 0;
+	}
+
+	public void FillArray(GameObject[,] dPlayerSelection, int playerNum, GameObject[] playerSelection){
+		for (int i = 0; i < playerSelection.Length; i++) {
+			dPlayerSelection [playerNum, i] = playerSelection [i];
+		}
+	}
 
 	public void LoadScene(string loadedScene){
 		SceneManager.LoadScene (loadedScene, LoadSceneMode.Single);
@@ -36,13 +53,10 @@ public class TitleMenu : MonoBehaviour {
 		title.SetActive (false);
 		instructions.SetActive (true);
 	}
-
-	public void selectionScreen(){
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {
+
 		if (InputManager.ActiveDevice != null) {
 			if (InputManager.ActiveDevice.GetControl (InputControlType.Start)) {
 				Application.Quit ();
@@ -51,10 +65,15 @@ public class TitleMenu : MonoBehaviour {
 				if (instructions.activeSelf) {
 					instructions.SetActive (false);
 					instructions.gameObject.SetActive (false);
-					selection.SetActive (true);
-					selection.gameObject.SetActive (true);
-				} else if (selection.activeSelf) {
-					selectionScreen ();
+					selectionScreen.SetActive (true);
+					selectionScreen.gameObject.SetActive (true);
+				} else if (selectionScreen.activeSelf) {
+					if (InputManager.ActiveDevice.AnyButton.WasPressed) {
+						if (count <= 5) {
+							cursors [0].transform.position = pSelection [0, count].transform.position;
+							count++;
+						}
+					}
 				} else {
 					showInstructions ();			
 				}
