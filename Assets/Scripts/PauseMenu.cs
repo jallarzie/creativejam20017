@@ -28,7 +28,7 @@ public class PauseMenu : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (InputManager.ActiveDevice != null) {
-			if (InputManager.ActiveDevice.GetControl(InputControlType.Start).WasPressed)
+			if (InputManager.ActiveDevice.GetControl(InputControlType.Start).WasPressed || InputManager.ActiveDevice.GetControl(InputControlType.Select).WasPressed)
 			{
 				if (!isPaused) {
 					Time.timeScale = 0;
