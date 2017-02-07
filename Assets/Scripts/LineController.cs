@@ -76,12 +76,11 @@ public class LineController : MonoBehaviour {
         {
             if (jumpPoint.position.x <= (pin.transform.position.x + jumpLeeway) && jumpPoint.position.x >= (pin.transform.position.x - jumpLeeway))
             {
-                goingPins.Enqueue(comingPins.Dequeue());
+                comingPins.Dequeue();
+                pin.Hide();
+                goingPins.Enqueue(pin);
 
-                if (!pin.placed)
-                {
-                    sequenceSoundSource.mute = false;
-                }
+                sequenceSoundSource.mute = false;
 
                 return true;
             }
@@ -121,7 +120,8 @@ public class LineController : MonoBehaviour {
             if (comingPins.Peek().transform.position.x < (jumpPoint.position.x - jumpLeeway))
             {
                 goingPins.Enqueue(comingPins.Dequeue());
-                //player.Stumble();
+                player.Stumble();
+                sequenceSoundSource.mute = true;
             }
         }
 

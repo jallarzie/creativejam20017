@@ -33,9 +33,17 @@ public class ClothesPin : MonoBehaviour {
             _clothesColor = value;
             top.sprite = topSprites[(int)_clothesColor];
             bottom.sprite = bottomSprites[(int)_clothesColor];
+            top.enabled = true;
+            bottom.enabled = true;
         }
     }
 
     public bool placed { get; set; }
+
+    public void Hide()
+    {
+        top.enabled = false;
+        bottom.enabled = false;
+    }
 
 }
