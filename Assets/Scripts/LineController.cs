@@ -13,13 +13,12 @@ public class LineController : MonoBehaviour {
     [SerializeField]
     private float bpm;
 
-    [SerializeField] 
-    private float jumpLeeway;
-
     [SerializeField]
     private Transform startPoint;
     [SerializeField]
     private Transform jumpPoint;
+    [SerializeField]
+    private Transform leewayPoint;
     [SerializeField]
     private Transform endPoint;
     
@@ -53,7 +52,7 @@ public class LineController : MonoBehaviour {
 
     public float birdStopPosition
     {
-        get { return jumpPoint.position.x; }
+        get { return jumpPoint.position.x + 2f; }
     }
     
     public void PlacePin(ClothesPin pin)
@@ -74,7 +73,7 @@ public class LineController : MonoBehaviour {
 
         if (color == pin.clothesColor)
         {
-            if (jumpPoint.position.x <= (pin.transform.position.x + jumpLeeway) && jumpPoint.position.x >= (pin.transform.position.x - jumpLeeway))
+            if (pin.transform.position.x <= leewayPoint.position.x && pin.transform.position.x >= jumpPoint.position.x)
             {
                 comingPins.Dequeue();
                 pin.Hide();
@@ -117,7 +116,7 @@ public class LineController : MonoBehaviour {
 
         if (comingPins.Count > 0)
         {
-            if (comingPins.Peek().transform.position.x < (jumpPoint.position.x - jumpLeeway))
+            if (comingPins.Peek().transform.position.x < jumpPoint.position.x)
             {
                 goingPins.Enqueue(comingPins.Dequeue());
                 player.Stumble();

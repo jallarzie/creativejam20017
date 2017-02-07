@@ -22,7 +22,8 @@ public class GameController : MonoBehaviour {
         {
             if (i == 0)
             {
-                mainPlayer.inputDevice = InputManager.Devices[i];
+                players[i].inputDevice = InputManager.Devices[i];
+                //mainPlayer.inputDevice = InputManager.Devices[i];
             }
             else if (i - 1 < players.Length)
             {

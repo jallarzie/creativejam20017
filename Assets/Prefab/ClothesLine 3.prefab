@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010174291722}
   m_Layer: 0
-  m_Name: JumpPoint
+  m_Name: LeewayPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,6 +107,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1000012074900426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011858199450}
+  m_Layer: 0
+  m_Name: JumpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1000013478471758
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,12 +144,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011158864986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.5, y: 1.1, z: 0}
+  m_LocalPosition: {x: -40, y: 1.1000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000012289421736}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!4 &4000011497890866
 Transform:
   m_ObjectHideFlags: 1
@@ -147,7 +162,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000012289421736}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!4 &4000011730316774
 Transform:
   m_ObjectHideFlags: 1
@@ -161,6 +176,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000012289421736}
   m_RootOrder: 1
+--- !u!4 &4000011858199450
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012074900426}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -47.5, y: 1.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012289421736}
+  m_RootOrder: 4
 --- !u!4 &4000012080244214
 Transform:
   m_ObjectHideFlags: 1
@@ -202,6 +230,7 @@ Transform:
   - {fileID: 4000011730316774}
   - {fileID: 4000014239970528}
   - {fileID: 4000012191233212}
+  - {fileID: 4000011858199450}
   - {fileID: 4000010174291722}
   - {fileID: 4000011497890866}
   m_Father: {fileID: 0}
@@ -381,9 +410,9 @@ MonoBehaviour:
   pinPrefab: {fileID: 1000012937083200, guid: 8639cd8fd455a6c43a510f7376eee5c6, type: 2}
   pinSpeed: 35
   bpm: 120
-  jumpLeeway: 4
   startPoint: {fileID: 4000012191233212}
-  jumpPoint: {fileID: 4000010174291722}
+  jumpPoint: {fileID: 4000011858199450}
+  leewayPoint: {fileID: 4000010174291722}
   endPoint: {fileID: 4000011497890866}
   player: {fileID: 0}
   sequenceSoundSource: {fileID: 82000014084873510}
