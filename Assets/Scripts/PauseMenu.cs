@@ -14,6 +14,7 @@ public class PauseMenu : MonoBehaviour {
 	[SerializeField]
 	private Transform cursorPointQuit;
 
+	private AudioSource menuMovement;
 	private bool isPaused;
 	private bool isResume;
 
@@ -21,6 +22,7 @@ public class PauseMenu : MonoBehaviour {
 	void Start () {
 		isPaused = false;
 		isResume = true;
+		menuMovement = GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -43,9 +45,11 @@ public class PauseMenu : MonoBehaviour {
 			if (canvasPause.activeSelf) {
 				if (InputManager.ActiveDevice.DPadRight.WasPressed) {
 					cursor.transform.position = cursorPointQuit.position;
+					menuMovement.Play();
 					isResume = false;
 				} else if (InputManager.ActiveDevice.DPadLeft.WasPressed){
 					cursor.transform.position = cursorPointResume.position;
+					menuMovement.Play();
 					isResume = true;
 				}
 				if (isResume && InputManager.ActiveDevice.Action1.WasPressed) {
